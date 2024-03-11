@@ -64,46 +64,60 @@
 **评估** (更多详情，请参阅FinBen部分):
 
 我们所有的数据可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到
-- [FinBen (FinBen-zh-afqmc)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
-- [FinBen (FinBen-zh-stocka)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
-- [FinBen (FinBen-zh-corpus)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
-- [FinBen (FinBen-zh-fineval)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
+> Sentiment Analysis
 - [FinBen (FinBen-zh-fe)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
+- [FinBen (FinBen-zh-stockb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stockb)
+- [FinBen (FinBen-zh-fpb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fpb)
+- [FinBen (FinBen-zh-fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fiqasa)
+- [FinBen (FinBen-en-fpb)](https://huggingface.co/datasets/ChanceFocus/en-fpb)
+- [FinBen (FinBen-en-fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-fiqasa)
+- [FinBen (FinBen-en-fomc)](https://huggingface.co/datasets/ChanceFocus/flare-fomc)
+>Semantic Matching
+- [FinBen (FinBen-zh-afqmc)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
+- [FinBen (FinBen-zh-corpus)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
+> News Classification
 - [FinBen (FinBen-zh-nl)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
 - [FinBen (FinBen-zh-nl2)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
+> Negative Judgment
 - [FinBen (FinBen-zh-nsp)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nsp)
+> Answer Selection
+- [FinBen (FinBen-zh-fineval)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
+> Relationship Extraction
 - [FinBen (FinBen-zh-re)](https://huggingface.co/datasets/ChanceFocus/flare-zh-re)
-- [FinBen (FinBen-zh-stockb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stockb)
-- [FinBen (FinBen-zh-qa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-qa)
-- [FinBen (FinBen-zh-na)](https://huggingface.co/datasets/ChanceFocus/flare-zh-na)
+> Event Detection
 - [FinBen (FinBen-zh-19ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-19ccks)
 - [FinBen (FinBen-zh-20ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-20ccks)
 - [FinBen (FinBen-zh-21ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-21ccks)
 - [FinBen (FinBen-zh-22ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-22ccks)
+> Entity Recognition
 - [FinBen (FinBen-zh-ner)](https://huggingface.co/datasets/ChanceFocus/flare-zh-ner)
-- [FinBen (FinBen-zh-fpb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fpb)
-- [FinBen (FinBen-zh-fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fiqasa)
+- [FinBen (FinBen-en-ner)](https://huggingface.co/datasets/ChanceFocus/flare-ner)
+- [FinBen (FinBen-en-finer-ord)](https://huggingface.co/datasets/ChanceFocus/flare-finer-ord)
+> Question Answering
+- [FinBen (FinBen-zh-qa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-qa)
+- [FinBen (FinBen-zh-finqa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-finqa)
+- [FinBen (FinBen-zh-convfinqa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-convfinqa)
+- [FinBen (FinBen-en-finqa)](https://huggingface.co/datasets/ChanceFocus/flare-finqa)
+- [FinBen (FinBen-en-convfinqa)](https://huggingface.co/datasets/ChanceFocus/flare-convfinqa)
+> Classification
 - [FinBen (FinBen-zh-headlines)](https://huggingface.co/datasets/ChanceFocus/flare-zh-headlines)
+- [FinBen (FinBen-en-headlines)](https://huggingface.co/datasets/ChanceFocus/flare-headlines)
+> Stock Forecasting
+- [FinBen (FinBen-zh-stocka)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
 - [FinBen (FinBen-zh-bigdata)](https://huggingface.co/datasets/ChanceFocus/flare-zh-bigdata)
 - [FinBen (FinBen-zh-acl)](https://huggingface.co/datasets/ChanceFocus/flare-zh-acl)
 - [FinBen (FinBen-zh-cikm)](https://huggingface.co/datasets/ChanceFocus/flare-zh-cikm)
-- [FinBen (FinBen-zh-finqa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-finqa)
-- [FinBen (FinBen-zh-convfinqa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-convfinqa)
-- [FinBen (FinBen-en-fpb)](https://huggingface.co/datasets/ChanceFocus/en-fpb)
-- [FinBen (FinBen-en-fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-fiqasa)
-- [FinBen (FinBen-en-headlines)](https://huggingface.co/datasets/ChanceFocus/flare-headlines)
-- [FinBen (FinBen-en-finqa)](https://huggingface.co/datasets/ChanceFocus/flare-finqa)
-- [FinBen (FinBen-en-convfinqa)](https://huggingface.co/datasets/ChanceFocus/flare-convfinqa)
-- [FinBen (FinBen-en-ner)](https://huggingface.co/datasets/ChanceFocus/flare-ner)
 - [FinBen (FinBen-en-bigdata)](https://huggingface.co/datasets/TheFinAI/en-forecasting-bigdata)
 - [FinBen (FinBen-en-acl)](https://huggingface.co/datasets/ChanceFocus/flare-sm-acl)
 - [FinBen (FinBen-en-cikm)](https://huggingface.co/datasets/ChanceFocus/flare-sm-cikm)
+> Credit Scoring
 - [FinBen (FinBen-en-german)](https://huggingface.co/datasets/ChanceFocus/flare-german)
 - [FinBen (FinBen-en-australian)](https://huggingface.co/datasets/ChanceFocus/flare-australian)
+> Text Summarization
+- [FinBen (FinBen-zh-na)](https://huggingface.co/datasets/ChanceFocus/flare-zh-na)
 - [FinBen (FinBen-en-ectsum)](https://huggingface.co/datasets/ChanceFocus/flare-ectsum)
 - [FinBen (FinBen-en-edtsum)](https://huggingface.co/datasets/ChanceFocus/flare-edtsum)
-- [FinBen (FinBen-en-fomc)](https://huggingface.co/datasets/ChanceFocus/flare-fomc)
-- [FinBen (FinBen-en-finer-ord)](https://huggingface.co/datasets/ChanceFocus/flare-finer-ord)
+
 
 ## 概述
 
