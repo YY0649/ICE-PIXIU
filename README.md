@@ -73,16 +73,16 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 
 <p>
-
-ICE-PIXIU以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
----
-<img src="https://i.postimg.cc/7hz09pVX/20240311170038.jpg" width="100%" height="100%">
+    
+***ICE-PIXIU以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。***
+    
+<img src="https://i.postimg.cc/7hz09pVX/20240311170038.jpg" width="70%" height="70%">
 </p>
 <p>
 
-描述 ICE-PIXIU 在不同语言能力、数据类型、金融 NLP 任务、特定金融任务和数据集之间分布的旭日图
----
-<img src="https://i.postimg.cc/bJXWY2Jv/Figure-2.png" width="100%" height="100%">
+***描述 ICE-PIXIU 在不同语言能力、数据类型、金融 NLP 任务、特定金融任务和数据集之间分布的旭日图***
+
+<img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="70%" height="70%">
 </p>
 
 **数据集**
