@@ -227,7 +227,7 @@ docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 \
 
 1. Transformador Huggingface
 
-   要评估 HuggingFace Hub 上托管的模型（例如，finma-7b-full），请使用此命令：
+要评估 HuggingFace Hub 上托管的模型（例如，finma-7b-full），请使用此命令：
 
 ```bash
 python eval.py \
@@ -240,7 +240,6 @@ python eval.py \
 
 2. 商用接口
 
-
 请注意，对于 NER 等任务，自动评估是基于特定模式进行的。这可能无法提取零镜头设置中的相关信息，导致性能相对低于之前的人工标注结果。
 
 ```bash
@@ -249,6 +248,14 @@ python eval.py \
     --model gpt-4 \
     --tasks flare_zh_fe,flare_cner,flare_sm_acl
 ```
+
+3.自托管评估
+
+要运行推理后端，请执行以下操作：
+```bash
+bash scripts/run_interface.sh
+```
+注意，请根据您的环境要求调整run_interface.sh。
 
 ---
 
