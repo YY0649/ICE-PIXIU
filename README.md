@@ -231,7 +231,7 @@ docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 \
 
 1. Transformador Huggingface
 
-要评估 HuggingFace Hub 上托管的模型（例如，finma-7b-full），请使用此命令：
+要评估 HuggingFace Hub 上托管的模型（例如，ICE-INTERN-Full-7B），请使用此命令：
 
 ```bash
 python eval.py \
