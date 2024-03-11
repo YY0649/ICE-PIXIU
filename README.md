@@ -64,20 +64,20 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 
 
-## 评估 (更多详情，请参阅FinBen部分):
+## 评估数据:
 
-我们所有的评测数据集合都可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到，欢迎使用。
+我们所有的评测数据集合都可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到。有关评估的更多详情，请参阅FinBen部分。
 
 
 <p>
     
-### ICE-PIXIU以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
+#### ICE-PIXIU以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
     
 <img src="https://i.postimg.cc/7hz09pVX/20240311170038.jpg" width="70%" height="70%">
 </p>
 <p>
 
-### 描述 ICE-PIXIU 在不同语言能力、数据类型、金融 NLP 任务、特定金融任务和数据集之间分布的旭日图
+#### 描述 ICE-PIXIU 在不同语言能力、数据类型、金融 NLP 任务、特定金融任务和数据集之间分布的旭日图
 
 <img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="70%" height="70%">
 </p>
