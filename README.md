@@ -49,6 +49,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 **使用或访问本资源库中的信息，即表示您同意对作者、撰稿人以及任何附属组织或个人的任何及所有索赔或损害进行赔偿、为其辩护并使其免受损害。**
 
+---
+
 ### 新闻
 **📢 更新 (Date: 2024/03)**
 
