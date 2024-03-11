@@ -53,9 +53,9 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 **使用或访问本资源库中的信息，即表示您同意对作者、撰稿人以及任何附属组织或个人的任何及所有索赔或损害进行赔偿、为其辩护并使其免受损害。**
 
 ### 新闻
-**📢 Update (Date: 2024/03)**
+**📢 更新 (Date: 2024/03)**
 
-🐹 We're delighted to share that our paper, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
+🐹 我们很高兴与大家分享我们的论文, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
 
 
 **检查点:** 
@@ -280,7 +280,7 @@ bash scripts/run_interface.sh
 ---
 
 #### 部分类型数据示例
-Examples of of query input and response among various LLMs on some specific financial task of Question Answering(FinQA), Text Summarization(FinTS), Relationship Extraction(FinRE), Event Detection(FinED), Entity Recognition(FinER) and News Classification(FinNC).
+在问题解答（FinQA）、文本摘要（FinTS）、关系提取（FinRE）、事件检测（FinED）、实体识别（FinER）和新闻分类（FinNC）等特定金融任务中，各种 LLM 的输入和响应示例。
 | Task       | Query                                 |     Baichuan-7B   |     GPT-4      |    ICE-INTERN-full-7B    |
 | ---------- | ------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------- | ---------------------------------- |
 |FinQA       |浦东建设公告，公司子公司上海市浦东新区建设（集团）有限公司、上海浦兴路桥建设工程有限公司中标多项重大工程项目，中标金额总计为10.94亿元。请问中标事件对应的主体有哪些?|浦东建设、浦兴路桥、浦东建设(集团)|中标事件对应的主体有上海市浦东新区建设（集团）有限公司|上海市浦东新区建设（集团）有限公司,上海浦兴路桥建设工程有限公司|
