@@ -178,12 +178,9 @@
 | CHeadlines            | 新闻标题分类                     | 11,412  | 新闻头条                  | 文本              | MIT license    | [12]   |
 | CBigData              | 股票走势预测                     | 7,164   | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12] |
 | CACL                  | 股票走势预测                     | 27,053  | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12] |
-| CCIKM                 | 股票走势预测                     | 4,967   | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12]  
-|
-| CFinQA                | 金融问答                         | 14,900  | 收益报告                  | 文本, 表格         | MIT license    | [12]  
-|
-| CConvFinQA            | 多轮问答                         | 48,364  | 收益报告                  | 文本, 表格         | MIT license    | [12]  
-|
+| CCIKM                 | 股票走势预测                     | 4,967   | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12] |
+| CFinQA                | 金融问答                         | 14,900  | 收益报告                  | 文本, 表格         | MIT license    | [12] |
+| CConvFinQA            | 多轮问答                         | 48,364  | 收益报告                  | 文本, 表格         | MIT license    | [12] |
 
 1. Xu L, Hu H, Zhang X, et al. CLUE: A Chinese language understanding evaluation benchmark[J]. arXiv preprint arXiv:2004.05986, 2020.
 2. Jing Chen, Qingcai Chen, Xin Liu, Haijun Yang, Daohe Lu, and Buzhou Tang. 2018. The BQ Corpus: A Large-scale Domain-specific Chinese Corpus For Sentence Semantic Equivalence Identification. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 4946–4951, Brussels, Belgium. Association for Computational Linguistics.
