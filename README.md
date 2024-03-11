@@ -71,7 +71,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 我们所有的数据可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到
 <p>
-<img src="[https://i.postimg.cc/4Nq845D6/Figure-1.png](https://i.postimg.cc/7hz09pVX/20240311170038.jpg)" width="70%" height="70%">
+<img src="[https://i.postimg.cc/4Nq845D6/Figure-1.png](https://i.postimg.cc/7hz09pVX/20240311170038.jpg)" width="100%" height="100%">
 </p>
 
 **数据集**
