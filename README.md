@@ -275,6 +275,9 @@ bash scripts/run_interface.sh
 
 ---
 
+![Uploading image.png…]()
+
+
 ## 引用
 
 如果您在项目中使用了PIXIU，请引用我们的文章。
