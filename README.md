@@ -1,6 +1,3 @@
-<p>
-<img src="https://i.postimg.cc/xTpWgq3L/pixiu-logo.png"  width="100%" height="100%">
-</p>
 
 No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks
 =======
