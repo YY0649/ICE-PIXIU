@@ -276,10 +276,9 @@ bash scripts/run_interface.sh
 ---
 
 Examples of of query input and response among various LLMs on some specific financial task of Question Answering(FinQA), Text Summarization(FinTS), Relationship Extraction(FinRE), Event Detection(FinED), Entity Recognition(FinER) and News Classification(FinNC).
-| Task                                     | Query                                 | Model Response                                                |
-| ---------------------------------------- | ------------------------------------- | ------------------------------------------------------------- |
-|                                          |                                       |     Baichuan-7B   |     GPT-4      |    ICE-INTERN-full-7B    |
-| ---------------------------------------- | ------------------------------------- | ----------------- | -------------- | ------------------------ |
+| Task            | Query                                 | Model Response                                                |
+|                 |                                       |     Baichuan-7B   |     GPT-4      |    ICE-INTERN-full-7B    |
+| --------------- | ------------------------------------- | ----------------- | -------------- | ------------------------ |
 
 
 
