@@ -176,14 +176,8 @@
 | CFPB                  | 情感分析                         | 4,845   | 新闻                      | 文本              | MIT license    | [12]   |
 | CFIQASA               | 情感分析                         | 1,173   | 新闻头条、推文            | 文本              | MIT license    | [12]   |
 | CHeadlines            | 新闻标题分类                     | 11,412  | 新闻头条                  | 文本              | MIT license    | [12]   |
-| CBigData              | 股票走势预测                     | 7,164   | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12]  
-|
-| CACL                  | 股票走势预测                     | 27,053  | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12]   |
-| CHeadlines            | 新闻标题分类                     | 11,412  | 新闻头条                  | 文本              | MIT license    | [12]   |
-| CHeadlines            | 新闻标题分类                     | 11,412  | 新闻头条                  | 文本              | MIT license    | [12]   |
-| CHeadlines            | 新闻标题分类                     | 11,412  | 新闻头条                  | 文本              | MIT license    | [12]   |
-| CACL                  | 股票走势预测                     | 27,053  | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12]  
-|
+| CBigData              | 股票走势预测                     | 7,164   | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12] |
+| CACL                  | 股票走势预测                     | 27,053  | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12] |
 | CCIKM                 | 股票走势预测                     | 4,967   | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12]  
 |
 | CFinQA                | 金融问答                         | 14,900  | 收益报告                  | 文本, 表格         | MIT license    | [12]  
