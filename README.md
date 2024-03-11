@@ -1,83 +1,6 @@
-![image](https://github.com/YY0649/ICE-PIXIU/assets/91943053/2dae4db1-49d7-45ad-8fcc-79fd822a9b55)<p align="center" width="100%">
+<p>
 <img src="https://i.postimg.cc/xTpWgq3L/pixiu-logo.png"  width="100%" height="100%">
 </p>
-\begin{table*}[htb!]
- \centering
-    \footnotesize
-     \setlength\tabcolsep{1pt}
-         \renewcommand{\arraystretch}{1}
-  \begin{tabular}{c|c|c|c|c|c|c|c|c|c}
- \toprule
-        \textbf{Lang} & \textbf{D\_T} & \textbf{NLP\_T} & \textbf{S\_T} & \textbf{Dataset} & \textbf{Raw} & \textbf{Instruction} & \textbf{Evaluation} & \textbf{Data Source}  & \textbf{License} \\ 
-\midrule
-        \multirow{25}{*}{ZH} & \multirow{10}{*}{DLC} &\multirow{9}{*}{ZH-CLS} & \multirow{2}{*}{FinSA} & FE & 18,177 & 18,177 & 2,020 & social texts & Public \\ 
-        ~ & ~ & ~ & ~ & StockB & 9,812 & 9,812 & 1,962 & social texts & Apache-2.0 \\ 
-        \cmidrule(lr){4-10}
-        ~ & ~ & ~ & \multirow{2}{*}{FinSM} & BQC & 120,000 & 110,000 & 10,000 & bank service logs & Public \\ 
-        ~ & ~ & ~ & ~ & AFQMC & 38,650 & 38,650 & 4,316 & online chat service & Apache-2.0 \\
-           \cmidrule(lr){4-10}
-        ~ & ~ & ~ & \multirow{2}{*}{FinNC} & NL & 7,955 & 7,955 & 884 & news articles & Public \\ 
-        ~ & ~ & ~ & ~ & NL2 & 7,955 & 7,955 & 884 & news articles & Public \\ 
-        \cmidrule(lr){4-10}
-        ~ & ~ & ~ & FinNJ & NSP & 4,499 & 4,499 & 500 & social texts & Public \\ 
-        ~ & ~ & ~ & FinAS & FinevalF & 1,115 & 1,115 & 222 & financial exam & Apache-2.0 \\ 
-        ~ & ~ & ~ & FinRE & RE & 14,973 & 14,973 & 1,489 & news, entity pairs & Public \\
-          \cmidrule(lr){3-10}
-        ~ & ~ & ZH-PRE & FinSP & StockA & 14,769 & 14,769 & 1,477 & news,historical prices & Public \\ 
-        \cmidrule(lr){2-10}   
-        ~ & \multirow{7}{*}{DLE} & \multirow{6}{*}{ZH-EXT} & FinQA & QA & 22,375 & 22,375 & 2,469 & QA pairs of news & Public \\ 
-        \cmidrule(lr){4-10}
-        ~ &~ & ~ & FinER & CNER & 1,685 & 1,685 & 337 & financial reports & Public \\ 
-         \cmidrule(lr){4-10}
-        ~ &~ & ~ & \multirow{4}{*}{FinED} & 19CCKS & 156,834 & 14,674 & 2,936 & social texts & CC BY-SA 4.0 \\ 
-        ~ &~ & ~ & ~ & 20CCKS & 372,810 & 45,796 & 9,159 & news, reports & CC BY-SA 4.0 \\ 
-        ~ &~ & ~ & ~ & 21CCKS & 8,000 & 7,000 & 1,400 & news, reports & CC BY-SA 4.0 \\ 
-        ~ &~ & ~ & ~ & 22CCKS & 109,555 & 59,143 & 11,829 & news, reports & CC BY-SA 4.0 \\ 
-        \cmidrule(lr){3-10}
-        ~ & ~ & ZH-GEN & FinTS & NA & 32,400 & 32,400 & 3,600 & news, announcements & Public \\
-      \cmidrule(lr){2-10}
-        ~ & \multirow{8}{*}{DTT} & \multirow{8}{*}{ZH-TRA} & \multirow{2}{*}{FinSA} & CFPB & 4,845 & 4,838 & 970 & economic news & MIT license \\ 
-        ~ &~ & ~ & ~ & CFiQA-SA & 1,173 & 1,143 & 233 & ews headlines,tweets & MIT license \\ 
-          \cmidrule(lr){4-10}
-        ~ &~ & ~ & \multirow{3}{*}{FinSP} & CACL18 & 27,056 & 2,555 & 511 & tweets, historical prices & MIT license \\ 
-        ~ &~ & ~ & ~ & CBigData22 & 7,167 & 798 & 159 & tweets, historical prices & MIT license \\ 
-        ~ & ~ & ~ & ~ & CCIKM18 & 4,970 & 431 & 86 & tweets, historical prices & MIT license \\ 
-          \cmidrule(lr){4-10}
-        ~ &~ & ~ & FinHC & CHeadlines & 102,708 & 10,256 & 2,051 & news headlines & MIT license \\ 
-          \cmidrule(lr){4-10}
-        ~ &~ & ~ & \multirow{2}{*}{FinQA} & CEnQA & 8,281 & 668 & 133 & earnings reports & MIT license \\ 
-        ~ &~ & ~ & ~ & CConFinQA & 12,594 & 1,189 & 237 & earnings reports & MIT license \\ 
-         \cmidrule(lr){2-10}
-        \multirow{15}{*}{EN} & \multirow{11}{*}{DTE} &\multirow{5}{*}{EN-CLS} & \multirow{2}{*}{FinSA} & FPB & 4,845 & 4,845 & 970 & economic news & CC BY-SA 3.0 \\ 
-        ~ &~ & ~ & ~ & FiQA-SA & 1,173 & 1,173 & 235 & news headlines,tweets & Public \\ 
-        \cmidrule(lr){4-10}
-        ~ &~ & ~ & FinHC & Headlines & 11,412 & 102,708 & 20,547 & news headlines & CC BY-SA 3.0 \\ 
-        \cmidrule(lr){4-10}
-        ~ & ~ & ~ & \multirow{2}{*}{FinCC} & German & 1,000 & 1,000 & 200 & credit records & CC BY-SA 4.0 \\ 
-        ~ & ~ & ~ & ~ & Australian & 690 & 690 & 139 & credit records & CC BY-SA 4.0 \\
-         \cmidrule(lr){3-10}
-        ~ &~ & \multirow{3}{*}{EN-PRE} & \multirow{3}{*}{FinSP} & ACL18 & 27,053 & 27,053 & 3,720 & tweets, historical prices & MIT License \\ 
-        ~ &~ & ~ & ~ & BigData22 & 7,164 & 7,164 & 1,472 & tweets, historical prices & Public \\ 
-        ~ &~ & ~ & ~ & CIKM18 & 4,967 & 4,967 & 1,143 & tweets, historical prices & Public \\ 
-         \cmidrule(lr){3-10}
-        ~ &~ & EN-EXT & FinER & NER & 609 & 609 & 98 & financial agreements & CC BY-SA 3.0 \\ 
-       \cmidrule(lr){3-9}
-        ~ &~ & \multirow{2}{*}{EN-REA} & \multirow{2}{*}{FinQA} & EnQA & 8,281 & 8,281 & 1,147 & earnings reports & MIT License \\ 
-        ~ & ~ & ~ &  & ConFinQA & 3,458 & 12,594 & 1,490 & earnings reports & MIT License \\ 
-         \cmidrule(lr){3-10}
-        ~ & \multirow{4}{*}{DOF} & \multirow{4}{*}{EN-DOF} & FinER & FINER-ORD & 1,075 & - & 1,075 & news articles & CC BY-SA 4.0 \\ 
-        \cmidrule(lr){4-10}
-        ~ & ~ & ~ & \multirow{2}{*}{FinTS} & ECTSUM & 495 & - & 495 & earning call transcipts & Public \\ 
-        ~ & ~ & ~ & ~ & EDTSUM & 2,000 & - & 2,000 & news articles & Public \\ 
-        \cmidrule(lr){4-10}
-        ~ & ~ & ~ & FinDC & FOMC & 496 & - & 496 & FOMC transcripts & CC BY-SA 4.0 \\ 
-    \bottomrule
-    \end{tabular}
-    \caption{The detailed information regarding the raw data for the Chinese-English bilingual multi-task financial instruction and evaluation encompasses language proficiency (Lang), data type (D\_T), NLP task (NLP\_T), specific task (S\_T), dataset name, instruction data size, evaluation data size, data source, and license information. }
-    \label{tab:raw}
-\end{table*}
-
-
 
 No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks
 =======
@@ -147,6 +70,9 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 **评估** (更多详情，请参阅FinBen部分):
 
 我们所有的数据可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到
+<p>
+<img src="https://i.postimg.cc/4Nq845D6/Figure-1.png" width="100%" height="100%">
+</p>
 > Sentiment Analysis
 - [FinBen (FinBen-zh-fe)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
 - [FinBen (FinBen-zh-stockb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stockb)
