@@ -1,9 +1,9 @@
 <p align="center" width="100%">
 <img src="https://i.postimg.cc/xTpWgq3L/pixiu-logo.png"  width="100%" height="100%">
 </p>
-<div>
-    No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks
-</div>
+
+No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks
+=======
 <div>
 <div align="left">
     <a target='_blank'>Gang Hu<sup>1</sup></span>&emsp;
