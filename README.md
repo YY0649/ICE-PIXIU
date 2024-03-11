@@ -276,11 +276,9 @@ bash scripts/run_interface.sh
 ---
 
 Examples of of query input and response among various LLMs on some specific financial task of Question Answering(FinQA), Text Summarization(FinTS), Relationship Extraction(FinRE), Event Detection(FinED), Entity Recognition(FinER) and News Classification(FinNC).
-
-| Task            | Query                                 | Model Response                                                |
-| --------------- | ------------------------------------- | ----------------- | -------------- | ------------------------ |
-|                 |                                       |     Baichuan-7B   |     GPT-4      |    ICE-INTERN-full-7B    |
-| --------------- | ------------------------------------- | ----------------- | -------------- | ------------------------ |
+| Task       | Query                                 |     Baichuan-7B   |     GPT-4      |    ICE-INTERN-full-7B    |
+| ---------- | ------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------- | ---------------------------------- |
+|FinQA       |浦东建设公告，公司子公司上海市浦东新区建设（集团）有限公司、上海浦兴路桥建设工程有限公司中标多项重大工程项目，中标金额总计为10.94亿元。请问中标事件对应的主体有哪些?|浦东建设、浦兴路桥、浦东建设(集团)|中标事件对应的主体有上海市浦东新区建设（集团）有限公司|上海市浦东新区建设（集团）有限公司,上海浦兴路桥建设工程有限公司|
 
 
 
