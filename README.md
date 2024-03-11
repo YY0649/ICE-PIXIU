@@ -264,4 +264,4 @@ python eval.py \
 
 ## 许可证
 
-PIXIU 采用 [MIT] 许可。有关详细信息，请参阅 [MIT](LICENSE) 文件。
+ICE-PIXIU 采用 [MIT] 许可。有关详细信息，请参阅 [MIT](LICENSE) 文件。
