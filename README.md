@@ -124,43 +124,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [FinBen (FinBen-en-ectsum)](https://huggingface.co/datasets/ChanceFocus/flare-ectsum)
 - [FinBen (FinBen-en-edtsum)](https://huggingface.co/datasets/ChanceFocus/flare-edtsum)
 
-\multicolumn{2}{c}{\multirow{2}{*}{\textbf{Specific Task}}}	\multirow{2}{*}{\textbf{Metric}}	\multirow{2}{*}{\textbf{Lang}}	\multirow{2}{*}{\textbf{Data}}	\multirow{2}{*}{\textbf{Test}}	\multicolumn{5}{c}{\textbf{Cover}}
-						[1]	[2]	[3]	[4]	[5]	[6]
-\multirow{6}{*}{\makecell{Sentiment
-				StockB	1,962
-				CFPB	970
-				CFiQA-SA	233
-			\multirow{2}{*}{en}	FPB	970
-				FiQA-SA	235
-\makecell{Semantic
-\makecell{News
-\makecell{Negative
-\makecell{Answer
-\multirow{7}{*}{\makecell{Stock
-				CACL18	511
-				CBigData18	159
-				CCIKM18	86
-			\multirow{3}{*}{en}	ACL18	3,720
-				BigData18	1,472
-				CIKM18	1,143
-\makecell{Relationship
-\makecell{Headline
-\makecell{Credit
-\makecell{Hawkish-dovish
-\multirow{5}{*}{\makecell{Question
-				CEnQA	133
-				CConFinQA	237
-			\multirow{2}{*}{en}	EnQA	1,147
-				ConFinQA	1,490
-\makecell{Entity
-\multirow{4}{*}{\makecell{Event
-				20CCKS	9,159
-				21CCKS	1,400
-				22CCKS	11,829
-\makecell{Text
-Open Source	\multicolumn{5}{c}{\usym{2714}}	\usym{2714}	\usym{2714}	\usym{2714}	\usym{2714}	\usym{2714}	\usym{2717}
-Task Total	\multicolumn{5}{c}{14}	5	6	8	4	1	1
-Data Total	\multicolumn{5}{c}{95k}	43k	4k	11k	4k	5k	0.2k
+
 
 
 ## 概述
