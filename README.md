@@ -62,14 +62,11 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 - [ICE-INTERN (Full 7B version)](https://huggingface.co/jasion/ICE-INTERN-Full-7B)
 
-#**语言**
 
-#- [英文](README.en.md)
-#- [中文](README.zh.md)
 
 **评估** (更多详情，请参阅FinBen部分):
 
-我们所有的数据可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到
+我们所有的评测数据集合都可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到，欢迎使用。
 
 
 <p>
