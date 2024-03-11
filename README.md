@@ -40,7 +40,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 -----------------
 
-![](https://img.shields.io/badge/pixiu-v0.1-gold)
+[![](https://img.shields.io/badge/pixiu-v0.1-gold)](https://github.com/The-FinAI/PIXIU)
 [![](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/YY0649/ICE-PIXIU/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/1146837080798933112)](https://discord.gg/HRWpUmKB)
 
