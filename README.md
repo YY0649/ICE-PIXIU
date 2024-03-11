@@ -3,57 +3,26 @@
 </p>
 <div>
 <div align="left">
-    <a target='_blank'>Qianqian Xie<sup>1</sup></span>&emsp;
-    <a target='_blank'>Weiguang Han<sup>2</sup></span>&emsp;
-    <a target='_blank'>Zhengyu Chen<sup>2</sup></span>&emsp;
-    <a target='_blank'>Ruoyu Xiang<sup>1</sup></a>&emsp;
-    <a target='_blank'>Xiao Zhang<sup>1</sup></a>&emsp;
-    <a target='_blank'>Yueru He<sup>1</sup></a>&emsp;
-    <a target='_blank'>Mengxi Xiao<sup>2</sup></a>&emsp;
-    <a target='_blank'>Dong Li<sup>2</sup></a>&emsp;
-    <a target='_blank'>Yongfu Dai<sup>7</sup></a>&emsp;
-    <a target='_blank'>Duanyu Feng<sup>7</sup></a>&emsp;
-    <a target='_blank'>Yijing Xu<sup>1</sup></a>&emsp;
-    <a target='_blank'>Haoqiang Kang<sup>5</sup></a>&emsp;
-    <a target='_blank'>Ziyan Kuang<sup>12</sup></a>&emsp;
-    <a target='_blank'>Chenhan Yuan<sup>3</sup></a>&emsp;
-    <a target='_blank'>Kailai Yang<sup>3</sup></a>&emsp;
-    <a target='_blank'>Zheheng Luo<sup>3</sup></a>&emsp;
-    <a target='_blank'>Tianlin Zhang<sup>3</sup></a>&emsp;
-    <a target='_blank'>Zhiwei Liu<sup>3</sup></a>&emsp;
-    <a target='_blank'>Guojun Xiong<sup>10</sup></a>&emsp;
-    <a target='_blank'>Zhiyang Deng<sup>9</sup></a>&emsp;
-    <a target='_blank'>Yuechen Jiang<sup>9</sup></a>&emsp;
-    <a target='_blank'>Zhiyuan Yao<sup>9</sup></a>&emsp;
-    <a target='_blank'>Haohang Li<sup>9</sup></a>&emsp;
-    <a target='_blank'>Yangyang Yu<sup>9</sup></a>&emsp;
-    <a target='_blank'>Gang Hu<sup>8</sup></a>&emsp;
-    <a target='_blank'>Jiajia Huang<sup>11</sup></a>&emsp;
-    <a target='_blank'>Xiao-Yang Liu<sup>5</sup></a>&emsp;
+    <a target='_blank'>Gang Hu<sup>1</sup></span>&emsp;
+    <a target='_blank'>Ke Qin<sup>1</sup></span>&emsp;
+    <a target='_blank'>Chenhan Yuan<sup>2</sup></span>&emsp;
+    <a target='_blank'>Min Peng<sup>3</sup></a>&emsp;
     <a href='https://warrington.ufl.edu/directory/person/12693/' target='_blank'>Alejandro Lopez-Lira<sup>4</sup></a>&emsp;
-    <a target='_blank'>Benyou Wang<sup>6</sup></a>&emsp;
-    <a target='_blank'>Yanzhao Lai<sup>13</sup></a>&emsp;
-    <a target='_blank'>Hao Wang<sup>7</sup></a>&emsp;
-    <a target='_blank'>Min Peng<sup>2*</sup></a>&emsp;
-    <a target='_blank'>Sophia Ananiadou<sup>3</sup></a>&emsp;
-    <a href='' target='_blank'>Jimin Huang<sup>1</sup></a>
+    <a target='_blank'>Benyou Wang<sup>5</sup></a>&emsp;
+    <a target='_blank'>Sophia Ananiadou<sup>2</sup></a>&emsp;
+    <a target='_blank'>Wanlong Yu<sup>1</sup></a>&emsp;
+    <a target='_blank'>Qianqian Xie<sup>6</sup></a>&emsp;
+    <a href='' target='_blank'>Jimin Huang<sup>6</sup></a>
 </div>
 <br />
 
 <div align="left">
-    <sup>1</sup>The Fin AI&emsp;
-    <sup>2</sup>Wuhan University&emsp;
-    <sup>3</sup>The University of Manchester&emsp;
+    <sup>1</sup>Yunnan University&emsp;
+    <sup>2</sup>The University of Manchester&emsp;
+    <sup>3</sup>Wuhan University&emsp;
     <sup>4</sup>University of Florida&emsp;
-    <sup>5</sup>Columbia University&emsp;
-    <sup>6</sup>The Chinese University of Hong Kong, Shenzhen&emsp;
-    <sup>7</sup>Sichuan University&emsp;
-    <sup>8</sup>Yunnan University&emsp;
-    <sup>9</sup>Stevens Institute of Technology&emsp;
-    <sup>10</sup>Stony Brook University&emsp;
-    <sup>11</sup>Nanjin Audit University&emsp;
-    <sup>12</sup>Jiangxi Normal University&emsp;
-    <sup>13</sup>Southwest Jiaotong University
+    <sup>5</sup>The Chinese University of Hong Kong, Shenzhen&emsp;
+    <sup>6</sup>The Fin AI, Singapore&emsp
 </div>
 <br />
 
@@ -61,7 +30,8 @@
     <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbx3AQWiMhxwOvFb7r1PH-h_i5-b3H9xsGVKnkQwbFlA&s' alt='Yunnan University' height='50px'>&emsp;
     <img src='https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png' alt='Manchester University Logo' height='50px'>&emsp;
     <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='50px'>&emsp;
-    <img src='https://i.postimg.cc/XY1s2RHD/University-of-Florida-Logo-1536x864.jpg' alt='University of Florida Logo' height='50px'>&emsp;        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMTMkJVT6g36_LN-8qJ4nMvgT3vM5spUHV3ITRYbym1CEg4Af5Shlp5jX2sWtDFtTK9I&usqp=CAU' alt='HK University (shenzhen) Logo' height='50px'>&emsp;
+    <img src='https://i.postimg.cc/XY1s2RHD/University-of-Florida-Logo-1536x864.jpg' alt='University of Florida Logo' height='50px'>&emsp;        
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMTMkJVT6g36_LN-8qJ4nMvgT3vM5spUHV3ITRYbym1CEg4Af5Shlp5jX2sWtDFtTK9I&usqp=CAU' alt='HK University (shenzhen) Logo' height='50px'>&emsp;
     
 </div>
 
