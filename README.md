@@ -247,7 +247,7 @@ python eval.py \
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
 python eval.py \
     --model gpt-4 \
-    --tasks flare_ner,flare_sm_acl,flare_fpb
+    --tasks flare_zh_fe,flare_cner,flare_sm_acl
 ```
 
 ---
