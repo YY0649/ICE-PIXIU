@@ -73,6 +73,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 <p>
 <img src="https://i.postimg.cc/4Nq845D6/Figure-1.png" width="100%" height="100%">
 </p>
+
+**数据集**
 > Sentiment Analysis
 - [FinBen (FinBen-zh-fe)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
 - [FinBen (FinBen-zh-stockb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stockb)
