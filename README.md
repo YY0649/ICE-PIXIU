@@ -40,7 +40,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 -----------------
 
-![www.baidu.com](https://img.shields.io/badge/pixiu-v0.1-gold)
+![](https://img.shields.io/badge/pixiu-v0.1-gold)
 ![](https://black.readthedocs.io/en/stable/_static/license.svg)
 [![Discord](https://img.shields.io/discord/1146837080798933112)](https://discord.gg/HRWpUmKB)
 
@@ -54,7 +54,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 **📢 Update (Date: 09-22-2023)**
 
-🚀 We're delighted to share that our paper, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
+🐹 We're delighted to share that our paper, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
 
 
 **检查点:** 
