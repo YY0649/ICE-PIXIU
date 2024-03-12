@@ -138,6 +138,196 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ---
 
+### 详细描述
+<table border= "1" width= "600" align="center">
+
+列名<tr bgcolor="#D3D3D3">
+        <td align="center">Lang</td>  
+        <td align="center">D_T</td>  
+        <td align="center">NLP_T</td>  
+        <td align="center">S_T</td>  
+        <td align="center">Dataset</td>
+        <td align="center">Raw</td>  
+        <td align="center">Instruction</td>  
+        <td align="center">Evaluation</td>  
+        <td align="center">Data Source</td>  
+        <td align="center">License</td>  
+     </tr>
+ZH-DLC-FinSA<tr>
+        <td rowspan=25 align="center">ZH</td>  
+        <td rowspan=10 align="center">DLC</td>  
+        <td rowspan=9 align="center">ZH-CLS</td>  
+        <td rowspan=2 align="center">FinSA</td>  
+        <td align="center">FE</td>
+        <td align="center">18,177</td>
+        <td align="center">18,177</td>
+        <td align="center">2,020</td>
+        <td align="center">social texts</td>
+        <td align="center">Public</td>
+     </tr>
+     <tr>
+        <td align="center">StockB</td>
+        <td align="center">9,812</td>
+        <td align="center">9,812</td>
+        <td align="center">1,962</td>
+        <td align="center">social texts</td>
+        <td align="center">Apache-2.0</td>
+     </tr>
+FinSM<tr>
+        <td rowspan=2 align="center">FinSM</td>  
+        <td align="center">BQC</td>
+        <td align="center">120,000</td>
+        <td align="center">110,000</td>
+        <td align="center">10,000</td>
+        <td align="center">bank service logs</td>
+        <td align="center">Public</td>
+     </tr>
+     <tr>
+        <td align="center">AFQMC</td>
+        <td align="center">38,650</td>
+        <td align="center">38,650</td>
+        <td align="center">4,316</td>
+        <td align="center">online chat service</td>
+        <td align="center">Apache-2.0</td>
+     </tr>
+FinNC<tr>
+        <td rowspan=2 align="center">FinNC</td>  
+        <td align="center">NL</td>
+        <td align="center">7,955</td>
+        <td align="center">7,955</td>
+        <td align="center">884</td>
+        <td align="center">news articles</td>
+        <td align="center">Public</td>
+     </tr>
+     <tr>
+        <td align="center">NL2</td>
+        <td align="center">7,955</td>
+        <td align="center">7,955</td>
+        <td align="center">884</td>
+        <td align="center">news articles</td>
+        <td align="center">Public</td>
+     </tr>
+FinNJ<tr>
+        <td align="center">FinNJ</td>  
+        <td align="center">NSP</td>
+        <td align="center">4,499</td>
+        <td align="center">4,499</td>
+        <td align="center">500</td>
+        <td align="center">social texts</td>
+        <td align="center">Public</td>
+     </tr>
+FinAS<tr>
+        <td align="center">FinAS</td>  
+        <td align="center">FinevalF</td>
+        <td align="center">1,115</td>
+        <td align="center">1,115</td>
+        <td align="center">222</td>
+        <td align="center">financial exam</td>
+        <td align="center">Apache-2.0</td>
+     </tr>
+FinRE<tr>
+        <td align="center">FinRE</td>  
+        <td align="center">RE</td>
+        <td align="center">14,973</td>
+        <td align="center">14,973</td>
+        <td align="center">1,489</td>
+        <td align="center">news, entity pairs</td>
+        <td align="center">Public</td>
+     </tr>
+FinSP<tr>
+        <td align="center">ZH-PRE</td>  
+        <td align="center">FinSP</td>  
+        <td align="center">StockA</td>
+        <td align="center">14,769</td>
+        <td align="center">14,769</td>
+        <td align="center">1,477</td>
+        <td align="center">news, historical prices</td>
+        <td align="center">Public</td>
+     </tr>
+DLE-FinQA<tr>
+        <td rowspan=7 align="center">DLE</td>  
+        <td rowspan=6 align="center">ZH-EXT</td>  
+        <td align="center">FinQA</td>  
+        <td align="center">QA</td>
+        <td align="center">22,375</td>
+        <td align="center">22,375</td>
+        <td align="center">2,469</td>
+        <td align="center">QA pairs of news</td>
+        <td align="center">Public</td>
+     </tr>
+FinER<tr>
+        <td align="center">FinER</td>  
+        <td align="center">CNER</td>
+        <td align="center">1,685</td>
+        <td align="center">1,685</td>
+        <td align="center">337</td>
+        <td align="center">financial reports</td>
+        <td align="center">Public</td>
+     </tr>
+FinED<tr>
+        <td rowspan=4 align="center">FinED</td>  
+        <td align="center">19CCKS</td>
+        <td align="center">156,834</td>
+        <td align="center">14,674</td>
+        <td align="center">2,936</td>
+        <td align="center">social texts</td>
+        <td align="center">CC BY-SA 4.0</td>
+     </tr>
+     <tr>
+        <td align="center">20CCKS</td>
+        <td align="center">372,810</td>
+        <td align="center">45,796</td>
+        <td align="center">9,159</td>
+        <td align="center">news, reports</td>
+        <td align="center">CC BY-SA 4.0</td>
+     </tr>
+     <tr>
+        <td align="center">21CCKS</td>
+        <td align="center">8,000</td>
+        <td align="center">7,000</td>
+        <td align="center">1,400</td>
+        <td align="center">news, reports</td>
+        <td align="center">CC BY-SA 4.0</td>
+     </tr>
+     <tr>
+        <td align="center">22CCKS</td>
+        <td align="center">109,555</td>
+        <td align="center">59,143</td>
+        <td align="center">11,829</td>
+        <td align="center">news, reports</td>
+        <td align="center">CC BY-SA 4.0</td>
+     </tr>
+ZH-GEN-FinTS<tr>
+        <td align="center">ZH-GEN</td>
+        <td align="center">FinTS</td>  
+        <td align="center">NA</td>
+        <td align="center">32,400</td>
+        <td align="center">32,400</td>
+        <td align="center">3,600</td>
+        <td align="center">news, announcements</td>
+        <td align="center">Public</td>
+     </tr>
+DTT-FinSA<tr>
+        <td rowspan=8 align="center">DTT</td>  
+        <td rowspan=8 align="center">ZH-TRA</td>  
+        <td rowspan=2 align="center">FinSA</td>  
+        <td align="center">CFPB</td>
+        <td align="center">4,845</td>
+        <td align="center">4,838</td>
+        <td align="center">970</td>
+        <td align="center">economic news</td>
+        <td align="center">MIT license</td>
+     </tr>
+     <tr>
+        <td align="center">CFiQA-SA</td>
+        <td align="center">1,173</td>
+        <td align="center">1,143</td>
+        <td align="center">233</td>
+        <td align="center">news headlines, tweets</td>
+        <td align="center">MIT license</td>
+     </tr>
+
+
 ## 概述
 
 **ICE-PIXIU** 是我们推出的一个综合框架，它们分别是首个跨语言双语金融大语言模型 ICE-INTENT 和评估基准 ICE-FLARE。ICE-PIXIU 结合了各种中文分类、抽取、推理和预测 NLP 任务，增强了训练和性能，从而弥补了中文金融 NLP 的不足。同时集成了一系列翻译和原始英文数据集，丰富了双语金融建模的广度和深度。它提供了对各种模型变体的不受限制的访问、大量不同的跨语言和多模式指令数据的汇编，以及带有专家注释的评估基准，包括 10 个 NLP 任务和 20 个双语特定任务。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境中的语言灵活性和分析敏锐性。
