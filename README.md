@@ -80,66 +80,67 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 </p>
 
 **数据集**
-> Sentiment Analysis
-- [FinBen (FinBen-zh-fe)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
-- [FinBen (FinBen-zh-stockb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stockb)
-- [FinBen (FinBen-zh-fpb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fpb)
-- [FinBen (FinBen-zh-fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fiqasa)
-- [FinBen (FinBen-en-fpb)](https://huggingface.co/datasets/ChanceFocus/en-fpb)
-- [FinBen (FinBen-en-fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-fiqasa)
-- [FinBen (FinBen-en-fomc)](https://huggingface.co/datasets/ChanceFocus/flare-fomc)
->Semantic Matching
-- [FinBen (FinBen-zh-afqmc)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
-- [FinBen (FinBen-zh-corpus)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
-> News Classification
-- [FinBen (FinBen-zh-nl)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
-- [FinBen (FinBen-zh-nl2)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
-> Negative Judgment
-- [FinBen (FinBen-zh-nsp)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nsp)
-> Answer Selection
-- [FinBen (FinBen-zh-fineval)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
-> Relationship Extraction
-- [FinBen (FinBen-zh-re)](https://huggingface.co/datasets/ChanceFocus/flare-zh-re)
-> Event Detection
-- [FinBen (FinBen-zh-19ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-19ccks)
-- [FinBen (FinBen-zh-20ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-20ccks)
-- [FinBen (FinBen-zh-21ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-21ccks)
-- [FinBen (FinBen-zh-22ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-22ccks)
-> Entity Recognition
-- [FinBen (FinBen-zh-ner)](https://huggingface.co/datasets/ChanceFocus/flare-zh-ner)
-- [FinBen (FinBen-en-ner)](https://huggingface.co/datasets/ChanceFocus/flare-ner)
-- [FinBen (FinBen-en-finer-ord)](https://huggingface.co/datasets/ChanceFocus/flare-finer-ord)
-> Question Answering
-- [FinBen (FinBen-zh-qa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-qa)
-- [FinBen (FinBen-zh-finqa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-finqa)
-- [FinBen (FinBen-zh-convfinqa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-convfinqa)
-- [FinBen (FinBen-en-finqa)](https://huggingface.co/datasets/ChanceFocus/flare-finqa)
-- [FinBen (FinBen-en-convfinqa)](https://huggingface.co/datasets/ChanceFocus/flare-convfinqa)
-> Classification
-- [FinBen (FinBen-zh-headlines)](https://huggingface.co/datasets/ChanceFocus/flare-zh-headlines)
-- [FinBen (FinBen-en-headlines)](https://huggingface.co/datasets/ChanceFocus/flare-headlines)
-> Stock Forecasting
-- [FinBen (FinBen-zh-stocka)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
-- [FinBen (FinBen-zh-bigdata)](https://huggingface.co/datasets/ChanceFocus/flare-zh-bigdata)
-- [FinBen (FinBen-zh-acl)](https://huggingface.co/datasets/ChanceFocus/flare-zh-acl)
-- [FinBen (FinBen-zh-cikm)](https://huggingface.co/datasets/ChanceFocus/flare-zh-cikm)
-- [FinBen (FinBen-en-bigdata)](https://huggingface.co/datasets/TheFinAI/en-forecasting-bigdata)
-- [FinBen (FinBen-en-acl)](https://huggingface.co/datasets/ChanceFocus/flare-sm-acl)
-- [FinBen (FinBen-en-cikm)](https://huggingface.co/datasets/ChanceFocus/flare-sm-cikm)
-> Credit Scoring
-- [FinBen (FinBen-en-german)](https://huggingface.co/datasets/ChanceFocus/flare-german)
-- [FinBen (FinBen-en-australian)](https://huggingface.co/datasets/ChanceFocus/flare-australian)
-> Text Summarization
-- [FinBen (FinBen-zh-na)](https://huggingface.co/datasets/ChanceFocus/flare-zh-na)
-- [FinBen (FinBen-en-ectsum)](https://huggingface.co/datasets/ChanceFocus/flare-ectsum)
-- [FinBen (FinBen-en-edtsum)](https://huggingface.co/datasets/ChanceFocus/flare-edtsum)
+> Sentiment Analysis(FinSA)
+- [ICE-FLARE (zh-fe)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
+- [ICE-FLARE (zh-stockb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stockb)
+- [ICE-FLARE (zh-fpb)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fpb)
+- [ICE-FLARE (zh-fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fiqasa)
+- [ICE-FLARE (en-fpb)](https://huggingface.co/datasets/ChanceFocus/en-fpb)
+- [ICE-FLARE (en-fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-fiqasa)
+>Semantic Matching(FinSM)
+- [ICE-FLARE (zh-afqmc)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
+- [ICE-FLARE (zh-corpus)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
+> News Classification(FinNS)
+- [ICE-FLARE (zh-nl)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
+- [ICE-FLARE (zh-nl2)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
+> Negative Judgment(FinNJ)
+- [ICE-FLARE (zh-nsp)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nsp)
+> Answer Selection(FinAS)
+- [ICE-FLARE (zh-fineval)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
+> Relationship Extraction(FinRE)
+- [ICE-FLARE (zh-re)](https://huggingface.co/datasets/ChanceFocus/flare-zh-re)
+> Headline Classification(FinHC)
+- [ICE-FLARE (zh-headlines)](https://huggingface.co/datasets/ChanceFocus/flare-zh-headlines)
+- [ICE-FLARE (en-headlines)](https://huggingface.co/datasets/ChanceFocus/flare-headlines)
+> Credit Classification(FinCC)
+- [ICE-FLARE (en-german)](https://huggingface.co/datasets/ChanceFocus/flare-german)
+- [ICE-FLARE (en-australian)](https://huggingface.co/datasets/ChanceFocus/flare-australian)
+> Hawkish-dovish Classification(FinDC)
+- [ICE-FLARE (en-fomc)](https://huggingface.co/datasets/ChanceFocus/flare-fomc)
+> Event Detection(FinED)
+- [ICE-FLARE (zh-19ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-19ccks)
+- [ICE-FLARE (zh-20ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-20ccks)
+- [ICE-FLARE (zh-21ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-21ccks)
+- [ICE-FLARE (zh-22ccks)](https://huggingface.co/datasets/ChanceFocus/flare-zh-22ccks)
+> Entity Recognition(FinER)
+- [ICE-FLARE (zh-ner)](https://huggingface.co/datasets/ChanceFocus/flare-zh-ner)
+- [ICE-FLARE (en-ner)](https://huggingface.co/datasets/ChanceFocus/flare-ner)
+- [ICE-FLARE (en-finer-ord)](https://huggingface.co/datasets/ChanceFocus/flare-finer-ord)
+> Question Answering(FinQA)
+- [ICE-FLARE (zh-qa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-qa)
+- [ICE-FLARE (zh-finqa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-finqa)
+- [ICE-FLARE (zh-convfinqa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-convfinqa)
+- [ICE-FLARE (en-finqa)](https://huggingface.co/datasets/ChanceFocus/flare-finqa)
+- [ICE-FLARE (en-convfinqa)](https://huggingface.co/datasets/ChanceFocus/flare-convfinqa)
+> Stock Prediction(FinSF)
+- [ICE-FLARE (zh-stocka)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
+- [ICE-FLARE (zh-bigdata)](https://huggingface.co/datasets/ChanceFocus/flare-zh-bigdata)
+- [ICE-FLARE (zh-acl)](https://huggingface.co/datasets/ChanceFocus/flare-zh-acl)
+- [ICE-FLARE (zh-cikm)](https://huggingface.co/datasets/ChanceFocus/flare-zh-cikm)
+- [ICE-FLARE (en-bigdata)](https://huggingface.co/datasets/TheFinAI/en-forecasting-bigdata)
+- [ICE-FLARE (en-acl)](https://huggingface.co/datasets/ChanceFocus/flare-sm-acl)
+- [ICE-FLARE (en-cikm)](https://huggingface.co/datasets/ChanceFocus/flare-sm-cikm)
+> Text Summarization(FinTS)
+- [ICE-FLARE (zh-na)](https://huggingface.co/datasets/ChanceFocus/flare-zh-na)
+- [ICE-FLARE (en-ectsum)](https://huggingface.co/datasets/ChanceFocus/flare-ectsum)
+- [ICE-FLARE (en-edtsum)](https://huggingface.co/datasets/ChanceFocus/flare-edtsum)
 
 
 ---
 
 ## 概述
 
-**FinBen_ZH** 是一项专注于中文金融领域的基石计划，旨在促进专为中文金融环境定制的大型语言模型（LLMs）的进展、完善和评估。FinBen_ZH 是 PIXIU 更大范围工作的一个重要部分，证明了我们在利用 LLMs 能力方面的承诺，确保中文世界的金融专业人士和爱好者拥有顶级的语言工具。
+**ICE-FLARE_ZH** 是一项专注于中文金融领域的基石计划，旨在促进专为中文金融环境定制的大型语言模型（LLMs）的进展、完善和评估。ICE-FLARE_ZH 是 PIXIU 更大范围工作的一个重要部分，证明了我们在利用 LLMs 能力方面的承诺，确保中文世界的金融专业人士和爱好者拥有顶级的语言工具。
 
 ### 主要特征
 
@@ -150,7 +151,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ---
 
-## FinBen_ZH: 金融语言理解和预测评估基准
+## ICE-FLARE_ZH: 金融语言理解和预测评估基准
 
 在本节中，我们将提供 ICE-INTERN 与其他领先模型（包括 Baichuan、ChatGPT、Qwen 等）相比的详细性能分析。为了进行分析，我们选择了一系列任务和指标，涵盖了金融自然语言处理和金融预测的各个方面。
 
