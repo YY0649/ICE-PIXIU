@@ -313,7 +313,14 @@ bash scripts/run_interface.sh
 如果您在项目中使用了ICE-PIXIU，请引用我们的文章。
 
 ```
-
+@misc{hu2024language,
+      title={No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks}, 
+      author={Gang Hu and Ke Qin and Chenhan Yuan and Min Peng and Alejandro Lopez-Lira and Benyou Wang and Sophia Ananiadou and Wanlong Yu and Jimin Huang and Qianqian Xie},
+      year={2024},
+      eprint={2403.06249},
+      archivePrefix={arXiv},
+      primaryClass={cs.CE}
+}
 ```
 
 ---
