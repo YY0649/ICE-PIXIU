@@ -41,7 +41,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 [![](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/YY0649/ICE-PIXIU/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/1146837080798933112)](https://discord.gg/HRWpUmKB)
 
-[ICE-PIXIU Paper](https://arxiv.org/abs/2403.06249) | [FinBen Leaderboard](https://huggingface.co/spaces/ChanceFocus/flare)
+[The Paper](https://arxiv.org/abs/2403.06249) | [FinBen Leaderboard](https://huggingface.co/spaces/ChanceFocus/flare)
 
 **免责声明**
 
