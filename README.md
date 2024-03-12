@@ -326,7 +326,7 @@ DTT-FinSA<tr>
         <td align="center">news headlines, tweets</td>
         <td align="center">MIT license</td>
      </tr>
-
+</table>
 
 ## 概述
 
