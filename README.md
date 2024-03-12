@@ -52,7 +52,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 ---
 
 ### 新闻
-**📢 更新 (Date: 2024/03)**
+**📢 更新 (Date: 2024/03/12)**
 
 🐹 我们很高兴与大家分享我们的论文, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
 
