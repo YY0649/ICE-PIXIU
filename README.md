@@ -153,7 +153,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ---
 
-## ICE-FLARE_ZH: 金融语言理解和预测评估基准
+## ICE-FLARE: 金融语言理解和预测评估基准
 
 在本节中，我们将提供 ICE-INTERN 与其他领先模型（包括 Baichuan、ChatGPT、Qwen 等）相比的详细性能分析。为了进行分析，我们选择了一系列任务和指标，涵盖了金融自然语言处理和金融预测的各个方面。
 
