@@ -488,7 +488,7 @@ DOF-FinER<tr>
         <td align="center">CC BY-SA 4.0</td>
      </tr>
 FinTS<tr>
-        <td align="center">FinTS</td>  
+        <td rowspan=2 align="center">FinTS</td>  
         <td align="center">ECTSUM</td>
         <td align="center">495</td>
         <td align="center">-</td>
