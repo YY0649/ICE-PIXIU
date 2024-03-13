@@ -397,7 +397,7 @@ EN-DTE-FinSA<tr>
         <td align="center">news headlines, tweets</td>
         <td align="center">Public</td>
      </tr>
-FinHC <td rowspan=2 align="center">FinHC</td>  
+FinHC <td align="center">FinHC</td>  
         <td align="center">Headlines</td>
         <td align="center">11,412</td>
         <td align="center">102,708</td>
