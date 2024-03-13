@@ -470,9 +470,9 @@ FinQA<tr>
      </tr>
      <tr>
         <td align="center">ConvFinQA</td>
-        <td align="center">8,281</td>
-        <td align="center">8,281</td>
-        <td align="center">1,147</td>
+        <td align="center">3,458</td>
+        <td align="center">12,594</td>
+        <td align="center">1,490</td>
         <td align="center">earnings reports</td>
         <td align="center">MIT License</td>
      </tr>
