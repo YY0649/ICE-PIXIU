@@ -136,7 +136,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (en-EDTSUM)](https://huggingface.co/datasets/ChanceFocus/flare-edtsum)
 
 
-**数据总表**：中英文双语多任务金融教学和评估原始数据的详细信息包括语言能力（Lang）、数据类型（D_T）、NLP 任务（NLP_T）、特定任务（S_T）、数据集名称、指令数据大小、评估数据大小、数据源和许可证信息
+**数据总表**：中英文双语多任务金融教学和评估原始数据的详细信息包括语言能力（Lang）、数据类型（D_T）、NLP 任务（NLP_T）、特定任务（S_T）、数据集名称、指令数据大小、评估数据大小、数据源和许可证信息。
 <table border= "1" width= "600" align="center">
     <tr bgcolor="#C0C0C0">
         <td align="center">Lang</td>  
@@ -150,7 +150,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">Data Source</td>  
         <td align="center">License</td>  
      </tr>
-<tr>
+    <tr>
         <td rowspan=25 align="center">ZH</td>  
         <td rowspan=10 align="center">DLC</td>  
         <td rowspan=9 align="center">ZH-CLS</td>  
@@ -170,7 +170,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">social texts</td>
         <td align="center">Apache-2.0</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=2 align="center">FinSM</td>  
         <td align="center">BQC</td>
         <td align="center">120,000</td>
@@ -187,7 +187,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">online chat service</td>
         <td align="center">Apache-2.0</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=2 align="center">FinNC</td>  
         <td align="center">NL</td>
         <td align="center">7,955</td>
@@ -204,7 +204,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news articles</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">FinNJ</td>  
         <td align="center">NSP</td>
         <td align="center">4,499</td>
@@ -213,7 +213,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">social texts</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">FinAS</td>  
         <td align="center">FinevalF</td>
         <td align="center">1,115</td>
@@ -222,7 +222,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">financial exam</td>
         <td align="center">Apache-2.0</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">FinRE</td>  
         <td align="center">RE</td>
         <td align="center">14,973</td>
@@ -231,7 +231,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news, entity pairs</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">ZH-PRE</td>  
         <td align="center">FinSP</td>  
         <td align="center">StockA</td>
@@ -241,7 +241,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news, historical prices</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=7 align="center">DLE</td>  
         <td rowspan=6 align="center">ZH-EXT</td>  
         <td align="center">FinQA</td>  
@@ -252,7 +252,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">QA pairs of news</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">FinER</td>  
         <td align="center">CNER</td>
         <td align="center">1,685</td>
@@ -261,7 +261,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">financial reports</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=4 align="center">FinED</td>  
         <td align="center">19CCKS</td>
         <td align="center">156,834</td>
@@ -294,7 +294,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news, reports</td>
         <td align="center">CC BY-SA 4.0</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">ZH-GEN</td>
         <td align="center">FinTS</td>  
         <td align="center">NA</td>
@@ -304,7 +304,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news, announcements</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=8 align="center">DTT</td>  
         <td rowspan=8 align="center">ZH-TRA</td>  
         <td rowspan=2 align="center">FinSA</td>  
@@ -323,7 +323,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news headlines, tweets</td>
         <td align="center">MIT license</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=3 align="center">FinSP</td>  
         <td align="center">CACL</td>
         <td align="center">27,056</td>
@@ -348,7 +348,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">tweets, historical prices</td>
         <td align="center">MIT license</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">FinHC</td>  
         <td align="center">CHeadlines</td>
         <td align="center">102,708</td>
@@ -357,7 +357,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news headlines</td>
         <td align="center">MIT license</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=2 align="center">FinQA</td>  
         <td align="center">CEnQA</td>
         <td align="center">8,281</td>
@@ -374,7 +374,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">earnings reports</td>
         <td align="center">MIT license</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=25 align="center">EN</td>  
         <td rowspan=11 align="center">DTE</td>  
         <td rowspan=5 align="center">EN-CLS</td>  
@@ -394,7 +394,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news headlines, tweets</td>
         <td align="center">Public</td>
      </tr>
-<td align="center">FinHC</td>  
+    <tr>
+        <td align="center">FinHC</td>  
         <td align="center">Headlines</td>
         <td align="center">11,412</td>
         <td align="center">102,708</td>
@@ -402,7 +403,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news headlines</td>
         <td align="center">CC BY-SA 3.0</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=2 align="center">FinCC</td>  
         <td align="center">German</td>
         <td align="center">1,000</td>
@@ -412,14 +413,14 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">CC BY-SA 4.0</td>
      </tr>
      <tr>
-        <<td align="center">Australian</td>
+        <td align="center">Australian</td>
         <td align="center">690</td>
         <td align="center">690</td>
         <td align="center">139</td>
         <td align="center">credit records</td>
         <td align="center">CC BY-SA 4.0</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=3 align="center">EN-PRE</td>  
         <td rowspan=3 align="center">FinSP</td>  
         <td align="center">ACL18</td>
@@ -445,7 +446,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">tweets, historical prices</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">EN-EXT</td>  
         <td align="center">FinER</td>  
         <td align="center">NER</td>
@@ -455,7 +456,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">financial agreements</td>
         <td align="center">CC BY-SA-3.0</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=2 align="center">EN-REA</td>  
         <td rowspan=2 align="center">FinQA</td>  
         <td align="center">EnQA</td>
@@ -473,7 +474,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">earnings reports</td>
         <td align="center">MIT License</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=5 align="center">DOF</td>
         <td rowspan=5 align="center">EN-DOF</td>  
         <td align="center">FinER</td>  
@@ -484,7 +485,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news articles</td>
         <td align="center">CC BY-SA 4.0</td>
      </tr>
-<tr>
+    <tr>
         <td rowspan=2 align="center">FinTS</td>  
         <td align="center">ECTSUM</td>
         <td align="center">495</td>
@@ -501,7 +502,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
         <td align="center">news articles</td>
         <td align="center">Public</td>
      </tr>
-<tr>
+    <tr>
         <td align="center">FinDC</td>  
         <td align="center">FOMC</td>
         <td align="center">496</td>
