@@ -379,7 +379,7 @@ FinQA<tr>
      </tr>
 EN-DTE-FinSA<tr>
         <td rowspan=25 align="center">EN</td>  
-        <td rowspan=10 align="center">DTE</td>  
+        <td rowspan=11 align="center">DTE</td>  
         <td rowspan=5 align="center">EN-CLS</td>  
         <td rowspan=2 align="center">FinSA</td>  
         <td align="center">FPB</td>
@@ -477,6 +477,7 @@ FinQA<tr>
         <td align="center">MIT License</td>
      </tr>
 DOF-FinER<tr>
+        <td rowspan=5 align="center">DOF</td>
         <td rowspan=5 align="center">EN-DOF</td>  
         <td align="center">FinER</td>  
         <td align="center">Finer-Ord</td>
