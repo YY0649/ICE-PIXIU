@@ -460,7 +460,7 @@ FinER<tr>
      </tr>
 FinQA<tr>
         <td rowspan=2 align="center">EN-REA</td>  
-        <td align="center">FinQA</td>  
+        <td rowspan=2 align="center">FinQA</td>  
         <td align="center">EnQA</td>
         <td align="center">8,281</td>
         <td align="center">8,281</td>
