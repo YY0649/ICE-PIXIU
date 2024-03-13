@@ -136,8 +136,6 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (en-EDTSUM)](https://huggingface.co/datasets/ChanceFocus/flare-edtsum)
 
 
----
-
 **数据总表**：中英文双语多任务金融教学和评估原始数据的详细信息包括语言能力（Lang）、数据类型（D_T）、NLP 任务（NLP_T）、特定任务（S_T）、数据集名称、教学数据大小、评估数据大小、数据来源和许可证信息。
 <table border= "1" width= "600" align="center">
 
@@ -515,6 +513,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
      </tr>
 </table>
 
+---
+            
 ## 概述
 
 **ICE-PIXIU** 是我们推出的一个综合框架，它们分别是首个跨语言双语金融大语言模型 ICE-INTENT 和评估基准 ICE-FLARE。ICE-PIXIU 结合了各种中文分类、抽取、推理和预测 NLP 任务，增强了训练和性能，从而弥补了中文金融 NLP 的不足。同时集成了一系列翻译和原始英文数据集，丰富了双语金融建模的广度和深度。它提供了对各种模型变体的不受限制的访问、大量不同的跨语言和多模式指令数据的汇编，以及带有专家注释的评估基准，包括 10 个 NLP 任务和 20 个双语特定任务。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境中的语言灵活性和分析敏锐性。
