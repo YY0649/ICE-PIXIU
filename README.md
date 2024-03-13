@@ -459,7 +459,7 @@ FinER<tr>
         <td align="center">CC BY-SA-3.0</td>
      </tr>
 FinQA<tr>
-        <td align="center">EN-REA</td>  
+        <td rowspan=2 align="center">EN-REA</td>  
         <td align="center">FinQA</td>  
         <td align="center">EnQA</td>
         <td align="center">8,281</td>
