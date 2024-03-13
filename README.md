@@ -138,8 +138,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 **数据总表**：中英文双语多任务金融教学和评估原始数据的详细信息包括语言能力（Lang）、数据类型（D_T）、NLP 任务（NLP_T）、特定任务（S_T）、数据集名称、指令数据大小、评估数据大小、数据源和许可证信息
 <table border= "1" width= "600" align="center">
-
-<tr bgcolor="#C0C0C0">
+    <tr bgcolor="#C0C0C0">
         <td align="center">Lang</td>  
         <td align="center">D_T</td>  
         <td align="center">NLP_T</td>  
