@@ -380,7 +380,7 @@ FinQA<tr>
 EN-DTE-FinSA<tr>
         <td rowspan=25 align="center">EN</td>  
         <td rowspan=10 align="center">DTE</td>  
-        <td rowspan=9 align="center">EN-CLS</td>  
+        <td rowspan=5 align="center">EN-CLS</td>  
         <td rowspan=2 align="center">FinSA</td>  
         <td align="center">FPB</td>
         <td align="center">4,845</td>
