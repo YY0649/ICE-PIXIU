@@ -138,10 +138,10 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ---
 
-### 详细描述
+**数据总表**：中英文双语多任务金融教学和评估原始数据的详细信息包括语言能力（Lang）、数据类型（D_T）、NLP 任务（NLP_T）、特定任务（S_T）、数据集名称、教学数据大小、评估数据大小、数据来源和许可证信息。
 <table border= "1" width= "600" align="center">
 
-列名<tr bgcolor="#D3D3D3">
+列名<tr bgcolor="#C0C0C0">
         <td align="center">Lang</td>  
         <td align="center">D_T</td>  
         <td align="center">NLP_T</td>  
@@ -297,7 +297,7 @@ FinED<tr>
         <td align="center">news, reports</td>
         <td align="center">CC BY-SA 4.0</td>
      </tr>
-ZH-GEN-FinTS<tr>
+DLE-FinTS<tr>
         <td align="center">ZH-GEN</td>
         <td align="center">FinTS</td>  
         <td align="center">NA</td>
@@ -325,6 +325,192 @@ DTT-FinSA<tr>
         <td align="center">233</td>
         <td align="center">news headlines, tweets</td>
         <td align="center">MIT license</td>
+     </tr>
+FinSP<tr>
+        <td rowspan=3 align="center">FinSP</td>  
+        <td align="center">CACL</td>
+        <td align="center">27,056</td>
+        <td align="center">2,555</td>
+        <td align="center">511</td>
+        <td align="center">tweets, historical prices</td>
+        <td align="center">MIT license</td>
+     </tr>
+     <tr>
+        <td align="center">CBigdata</td>
+        <td align="center">7,167</td>
+        <td align="center">798</td>
+        <td align="center">159</td>
+        <td align="center">tweets, historical prices</td>
+        <td align="center">MIT license</td>
+     </tr>
+     <tr>
+        <td align="center">CCIKM</td>
+        <td align="center">4,970</td>
+        <td align="center">431</td>
+        <td align="center">86</td>
+        <td align="center">tweets, historical prices</td>
+        <td align="center">MIT license</td>
+     </tr>
+FinHC<tr>
+        <td align="center">FinHC</td>  
+        <td align="center">CHeadlines</td>
+        <td align="center">102,708</td>
+        <td align="center">10,256</td>
+        <td align="center">2,051</td>
+        <td align="center">news headlines</td>
+        <td align="center">MIT license</td>
+     </tr>
+FinQA<tr>
+        <td rowspan=2 align="center">FinQA</td>  
+        <td align="center">CEnQA</td>
+        <td align="center">8,281</td>
+        <td align="center">668</td>
+        <td align="center">133</td>
+        <td align="center">earnings reports</td>
+        <td align="center">MIT license</td>
+     </tr>
+     <tr>
+        <td align="center">CConvFinQA</td>
+        <td align="center">12,594</td>
+        <td align="center">1,189</td>
+        <td align="center">237</td>
+        <td align="center">earnings reports</td>
+        <td align="center">MIT license</td>
+     </tr>
+EN-DTE-FinSA<tr>
+        <td rowspan=25 align="center">EN</td>  
+        <td rowspan=10 align="center">DTE</td>  
+        <td rowspan=9 align="center">EN-CLS</td>  
+        <td rowspan=2 align="center">FinSA</td>  
+        <td align="center">FPB</td>
+        <td align="center">4,845</td>
+        <td align="center">4,845</td>
+        <td align="center">970</td>
+        <td align="center">economic news</td>
+        <td align="center">CC BY-SA 3.0</td>
+     </tr>
+     <tr>
+        <td align="center">FiQA-SA</td>
+        <td align="center">1,173</td>
+        <td align="center">1,173</td>
+        <td align="center">235</td>
+        <td align="center">news headlines, tweets</td>
+        <td align="center">Public</td>
+     </tr>
+FinHC <td rowspan=2 align="center">FinHC</td>  
+        <td align="center">Headlines</td>
+        <td align="center">11,412</td>
+        <td align="center">102,708</td>
+        <td align="center">20,547</td>
+        <td align="center">news headlines</td>
+        <td align="center">CC BY-SA 3.0</td>
+     </tr>
+FinCC<tr>
+        <td rowspan=2 align="center">FinCC</td>  
+        <td align="center">German</td>
+        <td align="center">1,000</td>
+        <td align="center">1,000</td>
+        <td align="center">200</td>
+        <td align="center">credit records</td>
+        <td align="center">CC BY-SA 4.0</td>
+     </tr>
+     <tr>
+        <<td align="center">Australian</td>
+        <td align="center">690</td>
+        <td align="center">690</td>
+        <td align="center">139</td>
+        <td align="center">credit records</td>
+        <td align="center">CC BY-SA 4.0</td>
+     </tr>
+DTE-FinSP<tr>
+        <td rowspan=3 align="center">EN-PRE</td>  
+        <td rowspan=3 align="center">FinSP</td>  
+        <td align="center">ACL18</td>
+        <td align="center">27,053</td>
+        <td align="center">27,053</td>
+        <td align="center">3,720</td>
+        <td align="center">tweets, historical prices</td>
+        <td align="center">MIT License</td>
+     </tr>
+     <tr>
+        <td align="center">BigData22</td>
+        <td align="center">7,164</td>
+        <td align="center">7,164</td>
+        <td align="center">1,472</td>
+        <td align="center">tweets, historical prices</td>
+        <td align="center">Public</td>
+     </tr>
+     <tr>
+        <td align="center">CIKM18</td>
+        <td align="center">4,967</td>
+        <td align="center">4,967</td>
+        <td align="center">1,143</td>
+        <td align="center">tweets, historical prices</td>
+        <td align="center">Public</td>
+     </tr>
+FinER<tr>
+        <td align="center">EN-EXT</td>  
+        <td align="center">FinER</td>  
+        <td align="center">NER</td>
+        <td align="center">609</td>
+        <td align="center">609</td>
+        <td align="center">98</td>
+        <td align="center">financial agreements</td>
+        <td align="center">CC BY-SA-3.0</td>
+     </tr>
+FinQA<tr>
+        <td align="center">EN-REA</td>  
+        <td align="center">FinQA</td>  
+        <td align="center">EnQA</td>
+        <td align="center">8,281</td>
+        <td align="center">8,281</td>
+        <td align="center">1,147</td>
+        <td align="center">earnings reports</td>
+        <td align="center">MIT License</td>
+     </tr>
+     <tr>
+        <td align="center">ConvFinQA</td>
+        <td align="center">8,281</td>
+        <td align="center">8,281</td>
+        <td align="center">1,147</td>
+        <td align="center">earnings reports</td>
+        <td align="center">MIT License</td>
+     </tr>
+DOF-FinER<tr>
+        <td rowspan=5 align="center">EN-DOF</td>  
+        <td align="center">FinER</td>  
+        <td align="center">Finer-Ord</td>
+        <td align="center">1,075</td>
+        <td align="center">-</td>
+        <td align="center">1,075</td>
+        <td align="center">news articles</td>
+        <td align="center">CC BY-SA 4.0</td>
+     </tr>
+FinTS<tr>
+        <td align="center">FinTS</td>  
+        <td align="center">ECTSUM</td>
+        <td align="center">495</td>
+        <td align="center">-</td>
+        <td align="center">495</td>
+        <td align="center">earning call transcripts</td>
+        <td align="center">Public</td>
+     </tr>
+     <tr>
+        <td align="center">EDTSUM</td>
+        <td align="center">2,000</td>
+        <td align="center">-</td>
+        <td align="center">2,000</td>
+        <td align="center">news articles</td>
+        <td align="center">Public</td>
+     </tr>
+FinDC<tr>
+        <td align="center">FinDC</td>  
+        <td align="center">FOMC</td>
+        <td align="center">496</td>
+        <td align="center">-</td>
+        <td align="center">496</td>
+        <td align="center">FOMC transcripts</td>
+        <td align="center">CC BY-SA 4.0</td>
      </tr>
 </table>
 
