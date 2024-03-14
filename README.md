@@ -22,7 +22,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
     <sup>3</sup>Wuhan University&emsp;
     <sup>4</sup>University of Florida&emsp;
     <sup>5</sup>The Chinese University of Hong Kong, Shenzhen&emsp;
-    <sup>6</sup>The Fin AI, Singapore&emsp
+    <sup>6</sup>The Fin AI, Singapore&emsp;
 </div>
 <br />
 
@@ -57,27 +57,18 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 🐹 我们很高兴与大家分享我们的论文, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
 
 
+#### ICE-PIXIU(中英跨语言貔貅）以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
+<p align="center" width="100%">    
+<img src="https://i.postimg.cc/7hz09pVX/20240311170038.jpg" width="90%" height="90%">
+</p>
 
-**📯  检查点:** 
-
-- [ICE-INTERN (Full 7B version)](https://huggingface.co/jasion/ICE-INTERN-Full-7B)
-
----
+#### 描述 ICE-PIXIU 在不同语言能力、数据类型、金融 NLP 任务、特定金融任务和数据集上的分布旭日图
+<p align="center" width="100%">
+<img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="70%" height="70%">
+</p>
 
 ## 评估数据:
-
 我们所有的评测数据集合都可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到。
-
-
-#### ICE-PIXIU以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
-<p align="center" width="100%">    
-<img src="https://i.postimg.cc/7hz09pVX/20240311170038.jpg" width="70%" height="77%">
-</p>
-
-#### 描述 ICE-PIXIU 在不同语言能力、数据类型、金融 NLP 任务、特定金融任务和数据集之间分布的旭日图
-<p align="center" width="100%">
-<img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="40%" height="40%">
-</p>
 
 **数据集**
 > Sentiment Analysis(FinSA)
@@ -87,41 +78,52 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (zh-Fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fiqasa)
 - [ICE-FLARE (en-FPB)](https://huggingface.co/datasets/ChanceFocus/en-fpb)
 - [ICE-FLARE (en-Fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-fiqasa)
+  
 > Semantic Matching(FinSM)
 - [ICE-FLARE (zh-AFQMC)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
 - [ICE-FLARE (zh-BQC)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
+  
 > News Classification(FinNS)
 - [ICE-FLARE (zh-NL)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
 - [ICE-FLARE (zh-NL2)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
+  
 > Negative Judgment(FinNJ)
 - [ICE-FLARE (zh-NSP)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nsp)
+  
 > Answer Selection(FinAS)
 - [ICE-FLARE (zh-FinEvalF)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
+  
 > Relationship Extraction(FinRE)
 - [ICE-FLARE (zh-RE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-re)
+  
 > Headline Classification(FinHC)
 - [ICE-FLARE (zh-Headlines)](https://huggingface.co/datasets/ChanceFocus/flare-zh-headlines)
 - [ICE-FLARE (en-Headlines)](https://huggingface.co/datasets/ChanceFocus/flare-headlines)
+  
 > Credit Classification(FinCC)
 - [ICE-FLARE (en-German)](https://huggingface.co/datasets/ChanceFocus/flare-german)
 - [ICE-FLARE (en-Australian)](https://huggingface.co/datasets/ChanceFocus/flare-australian)
 > Hawkish-dovish Classification(FinDC)
 - [ICE-FLARE (en-FOMC)](https://huggingface.co/datasets/ChanceFocus/flare-fomc)
+  
 > Event Detection(FinED)
 - [ICE-FLARE (zh-19CCKS)](https://huggingface.co/datasets/ChanceFocus/flare-zh-19ccks)
 - [ICE-FLARE (zh-20CCKS)](https://huggingface.co/datasets/ChanceFocus/flare-zh-20ccks)
 - [ICE-FLARE (zh-21CCKS)](https://huggingface.co/datasets/ChanceFocus/flare-zh-21ccks)
 - [ICE-FLARE (zh-22CCKS)](https://huggingface.co/datasets/ChanceFocus/flare-zh-22ccks)
+  
 > Entity Recognition(FinER)
 - [ICE-FLARE (zh-NER)](https://huggingface.co/datasets/ChanceFocus/flare-zh-ner)
 - [ICE-FLARE (en-ner)](https://huggingface.co/datasets/ChanceFocus/flare-ner)
 - [ICE-FLARE (en-finer-ord)](https://huggingface.co/datasets/ChanceFocus/flare-finer-ord)
+  
 > Question Answering(FinQA)
 - [ICE-FLARE (zh-QA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-qa)
 - [ICE-FLARE (zh-EnQA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-finqa)
 - [ICE-FLARE (zh-ConvFinQa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-convfinqa)
 - [ICE-FLARE (en-EnQA)](https://huggingface.co/datasets/ChanceFocus/flare-finqa)
 - [ICE-FLARE (en-ConvFinQa)](https://huggingface.co/datasets/ChanceFocus/flare-convfinqa)
+  
 > Stock Prediction(FinSF)
 - [ICE-FLARE (zh-stockA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
 - [ICE-FLARE (zh-BigData)](https://huggingface.co/datasets/ChanceFocus/flare-zh-bigdata)
@@ -130,6 +132,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (en-BigData)](https://huggingface.co/datasets/TheFinAI/en-forecasting-bigdata)
 - [ICE-FLARE (en-ACL)](https://huggingface.co/datasets/ChanceFocus/flare-sm-acl)
 - [ICE-FLARE (en-CIKM)](https://huggingface.co/datasets/ChanceFocus/flare-sm-cikm)
+  
 > Text Summarization(FinTS)
 - [ICE-FLARE (zh-NA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-na)
 - [ICE-FLARE (en-ECTSUM)](https://huggingface.co/datasets/ChanceFocus/flare-ectsum)
@@ -517,7 +520,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
             
 ## 概述
 
-**ICE-PIXIU** 是我们推出的一个综合框架，包含首个跨语言双语金融大语言模型 ICE-INTENT 和评估基准 ICE-FLARE。ICE-PIXIU 结合了各种中文分类、抽取、推理和预测 NLP 任务，增强了训练和性能，从而弥补了中文金融 NLP 的不足。同时集成了一系列翻译和原始英文数据集，丰富了双语金融建模的广度和深度。它提供了对各种模型变体的不受限制的访问、大量不同的跨语言和多模式指令数据的汇编，以及带有专家注释的评估基准，包括 10 个 NLP 任务和 20 个双语特定任务。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境中的语言灵活性和分析敏锐性。
+**ICE-PIXIU** 是我们推出的一个综合框架，包含首个跨语言双语金融大语言模型 ICE-INTENT 和评估基准 ICE-FLARE。ICE-PIXIU 结合了各种中文分类、抽取、推理和预测的金融 NLP 任务，增强了训练和性能，从而弥补了中文金融 NLP 的不足。同时集成了一系列翻译和原始英文数据集，丰富了双语金融建模的广度和深度。它提供了对各种模型变体的不受限制的访问、大量不同的跨语言和多模式指令数据的汇编，以及带有专家注释的评估基准，包括 10 个 NLP 任务和 20 个双语特定任务。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境中的语言灵活性和分析敏锐性。
 
 ### 主要特征
 
@@ -530,9 +533,19 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ---
 
-## ICE-FLARE: 金融语言理解和预测评估基准
+## ICE-INTERN: 中英文跨语言金融大模型
 
-在本节中，我们将提供 ICE-INTERN 与其他领先模型（包括 Baichuan、ChatGPT、Qwen 等）相比的详细性能分析。为了进行分析，我们选择了一系列任务和指标，涵盖了金融自然语言处理和金融预测的各个方面。
+
+- [ICE-INTERN-7B (包含所有DLC的指令数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dlc-7B)
+- [ICE-INTERN-7B (包含所有DCL+DLE的指令数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dle-7B)
+- [ICE-INTERN-7B (包含所有DCL+DLE+DTT的数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dtt-7B)
+- [ICE-INTERN-7B (包含所有指令数据的微调模型)](https://huggingface.co/jasion/ICE-INTERN-Full-7B)
+
+在微调过程中，我们采用了QLoRA~\citep{hu2021lora}，这是一种高效的参数调整技术，使用统一的2048标记序列长度。优化过程使用了AdamW优化器，初始学习率为5e-5，权重衰减为1e-5，另外还进行了1%的总步数预热。所有模型在八块A100 40GB GPU上批量为24进行了一轮的微调，使用了一致的超参数设置。
+
+## ICE-FLARE: 中英文跨语言金融评估基准
+
+为了与其他通用大模型（包括 Baichuan、ChatGPT、Qwen 等）和金融大模型进行对比分析，我们选择了一系列任务和指标，涵盖了金融自然语言处理和金融预测的各个方面。
 
 ### 任务
 
@@ -579,9 +592,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ---
 
-### 评估
+### 基准评估环境部署
 
-#### 准备工作
 ##### 本地安装
 ```bash
 git clone https://github.com/chancefocus/PIXIU.git --recursive
@@ -691,6 +703,7 @@ bash scripts/run_interface.sh
 如果您在项目中使用了ICE-PIXIU，请引用我们的文章。
 
 ```
+
 @misc{hu2024language,
       title={No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks}, 
       author={Gang Hu and Ke Qin and Chenhan Yuan and Min Peng and Alejandro Lopez-Lira and Benyou Wang and Sophia Ananiadou and Wanlong Yu and Jimin Huang and Qianqian Xie},
@@ -698,6 +711,24 @@ bash scripts/run_interface.sh
       eprint={2403.06249},
       archivePrefix={arXiv},
       primaryClass={cs.CE}
+}
+
+@misc{xie2023pixiu,
+      title={PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance}, 
+      author={Qianqian Xie and Weiguang Han and Xiao Zhang and Yanzhao Lai and Min Peng and Alejandro Lopez-Lira and Jimin Huang},
+      year={2023},
+      eprint={2306.05443},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{xie2024FinBen,
+      title={The FinBen: An Holistic Financial Benchmark for Large Language Models}, 
+      author={Qianqian Xie and Weiguang Han and Zhengyu Chen and Ruoyu Xiang and Xiao Zhang and Yueru He and Mengxi Xiao and Dong Li and Yongfu Dai and Duanyu Feng and Yijing Xu and Haoqiang Kang and Ziyan Kuang and Chenhan Yuan and Kailai Yang and Zheheng Luo and Tianlin Zhang and Zhiwei Liu and Guojun Xiong and Zhiyang Deng and Yuechen Jiang and Zhiyuan Yao and Haohang Li and Yangyang Yu and Gang Hu and Jiajia Huang and Xiao-Yang Liu and Alejandro Lopez-Lira and Benyou Wang and Yanzhao Lai and Hao Wang and Min Peng and Sophia Ananiadou and Jimin Huang},
+      year={2024},
+      eprint={2402.12659},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
