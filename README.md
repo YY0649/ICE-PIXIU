@@ -12,7 +12,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
     <a target='_blank'>Sophia Ananiadou<sup>2</sup></a>&emsp;
     <a target='_blank'>Wanlong Yu<sup>1</sup></a>&emsp;
     <a target='_blank'>Qianqian Xie<sup>6</sup></a>&emsp;
-    <a href='' target='_blank'>Jimin Huang<sup>6</sup></a>
+    <a target='_blank'>Jimin Huang<sup>6</sup></a>&emsp
 </div>
 <br />
 
@@ -57,7 +57,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 🐹 我们很高兴与大家分享我们的论文, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
 
 
-#### ICE-PIXIU(中英跨语言貔貅）以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
+#### ICE-PIXIU(貔貅）以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
 <p align="center" width="100%">    
 <img src="https://i.postimg.cc/7hz09pVX/20240311170038.jpg" width="90%" height="90%">
 </p>
@@ -68,7 +68,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 </p>
 
 ## 评估数据:
-我们所有的评测数据集合都可以在[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到。
+所有的评测数据集合见[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到。
 
 **数据集**
 > Sentiment Analysis(FinSA)
@@ -535,13 +535,12 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ## ICE-INTERN: 中英文跨语言金融大模型
 
-
 - [ICE-INTERN-7B (包含所有DLC的指令数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dlc-7B)
 - [ICE-INTERN-7B (包含所有DCL+DLE的指令数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dle-7B)
 - [ICE-INTERN-7B (包含所有DCL+DLE+DTT的数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dtt-7B)
 - [ICE-INTERN-7B (包含所有指令数据的微调模型)](https://huggingface.co/jasion/ICE-INTERN-Full-7B)
 
-在微调过程中，我们采用了QLoRA~\citep{hu2021lora}，这是一种高效的参数调整技术，使用统一的2048标记序列长度。优化过程使用了AdamW优化器，初始学习率为5e-5，权重衰减为1e-5，另外还进行了1%的总步数预热。所有模型在八块A100 40GB GPU上批量为24进行了一轮的微调，使用了一致的超参数设置。
+在微调过程中，我们采用了QLoRA，这是一种高效的参数调整技术，使用统一的2048标记序列长度。微调过程使用了AdamW优化器，初始学习率为5e-5，权重衰减为1e-5，另外还进行了1%的总步数预热。所有模型在八块A100 40GB GPU上批量为24进行了一轮的微调，使用了一致的超参数设置。
 
 ## ICE-FLARE: 中英文跨语言金融评估基准
 
