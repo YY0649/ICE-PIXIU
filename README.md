@@ -27,12 +27,12 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 <br />
 
 <div align="left">
-    <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='100px'>&emsp;
-    <img src='https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png' alt='Manchester University Logo' height='70px'>&emsp;
-    <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='100px'>&emsp;
-    <img src='https://i.postimg.cc/XY1s2RHD/University-of-Florida-Logo-1536x864.jpg' alt='University of Florida Logo' height='70px'>&emsp;        
-    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMTMkJVT6g36_LN-8qJ4nMvgT3vM5spUHV3ITRYbym1CEg4Af5Shlp5jX2sWtDFtTK9I&usqp=CAU' alt='HK University (shenzhen) Logo' height='100px'>&emsp;
-    <img src='https://i.postimg.cc/6pJpSHym/9d9ff32f-67d6-45a8-ad93-c75bf70e5d33.png' alt='The FinAI Logo' height='100px'>&emsp;    
+    <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='90px'>&emsp;
+    <img src='https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png' alt='Manchester University Logo' height='80px'>&emsp;
+    <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='90px'>&emsp;
+    <img src='https://i.postimg.cc/XY1s2RHD/University-of-Florida-Logo-1536x864.jpg' alt='University of Florida Logo' height='80px'>&emsp;        
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMTMkJVT6g36_LN-8qJ4nMvgT3vM5spUHV3ITRYbym1CEg4Af5Shlp5jX2sWtDFtTK9I&usqp=CAU' alt='HK University (shenzhen) Logo' height='90px'>&emsp;
+    <img src='https://i.postimg.cc/6pJpSHym/9d9ff32f-67d6-45a8-ad93-c75bf70e5d33.png' alt='The FinAI Logo' height='90px'>&emsp;    
 </div>
 
 -----------------
