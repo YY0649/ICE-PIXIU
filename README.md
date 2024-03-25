@@ -12,7 +12,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
     <a target='_blank'>Sophia Ananiadou<sup>2</sup></a>&emsp;
     <a target='_blank'>Wanlong Yu<sup>1</sup></a>&emsp;
     <a target='_blank'>Qianqian Xie<sup>6</sup></a>&emsp;
-    <a target='_blank'>Jimin Huang<sup>6</sup></a>&emsp
+    <a target='_blank'>Jimin Huang<sup>6</sup></a>&emsp;
 </div>
 <br />
 
