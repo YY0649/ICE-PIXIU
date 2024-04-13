@@ -1,47 +1,7 @@
 
 No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks
 =======
-<div>
-<div align="left">
-    <a target='_blank'>Gang Hu<sup>1</sup></span>&emsp;
-    <a target='_blank'>Ke Qin<sup>1</sup></span>&emsp;
-    <a target='_blank'>Chenhan Yuan<sup>2</sup></span>&emsp;
-    <a target='_blank'>Min Peng<sup>3</sup></a>&emsp;
-    <a href='https://warrington.ufl.edu/directory/person/12693/' target='_blank'>Alejandro Lopez-Lira<sup>4</sup></a>&emsp;
-    <a target='_blank'>Benyou Wang<sup>5</sup></a>&emsp;
-    <a target='_blank'>Sophia Ananiadou<sup>2</sup></a>&emsp;
-    <a target='_blank'>Wanlong Yu<sup>1</sup></a>&emsp;
-    <a target='_blank'>Qianqian Xie<sup>6</sup></a>&emsp;
-    <a target='_blank'>Jimin Huang<sup>6</sup></a>&emsp;
-</div>
-<br />
 
-<div align="left">
-    <sup>1</sup>Yunnan University&emsp;
-    <sup>2</sup>The University of Manchester&emsp;
-    <sup>3</sup>Wuhan University&emsp;
-    <sup>4</sup>University of Florida&emsp;
-    <sup>5</sup>The Chinese University of Hong Kong, Shenzhen&emsp;
-    <sup>6</sup>The Fin AI, Singapore&emsp;
-</div>
-<br />
-
-<div align="left">
-    <img src='https://i.postimg.cc/DfB8jxV1/ynu.png' alt='Yunnan University Logo' height='90px'>&emsp;
-    <img src='https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png' alt='Manchester University Logo' height='80px'>&emsp;
-    <img src='https://i.postimg.cc/CLtkBwz7/57-EDDD9-FB0-DF712-F3-AB627163-C2-1-EF15655-13-FCA.png' alt='Wuhan University Logo' height='90px'>&emsp;
-    <img src='https://i.postimg.cc/XY1s2RHD/University-of-Florida-Logo-1536x864.jpg' alt='University of Florida Logo' height='80px'>&emsp;        
-    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMTMkJVT6g36_LN-8qJ4nMvgT3vM5spUHV3ITRYbym1CEg4Af5Shlp5jX2sWtDFtTK9I&usqp=CAU' alt='HK University (shenzhen) Logo' height='90px'>&emsp;
-    <img src='https://i.postimg.cc/6pJpSHym/9d9ff32f-67d6-45a8-ad93-c75bf70e5d33.png' alt='The FinAI Logo' height='90px'>&emsp;    
-</div>
-
------------------
-
-[![](https://img.shields.io/badge/pixiu-v0.1-gold)](https://github.com/The-FinAI/PIXIU)
-[![](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/YY0649/ICE-PIXIU/blob/master/LICENSE)
-[![Discord](https://img.shields.io/discord/1146837080798933112)](https://discord.gg/HRWpUmKB)
-
-[The Paper](https://arxiv.org/abs/2403.06249) | [Leaderboard](https://huggingface.co/spaces/ChanceFocus/flare)
 
 **免责声明**
 
@@ -703,32 +663,6 @@ bash scripts/run_interface.sh
 
 ```
 
-@misc{hu2024language,
-      title={No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks}, 
-      author={Gang Hu and Ke Qin and Chenhan Yuan and Min Peng and Alejandro Lopez-Lira and Benyou Wang and Sophia Ananiadou and Wanlong Yu and Jimin Huang and Qianqian Xie},
-      year={2024},
-      eprint={2403.06249},
-      archivePrefix={arXiv},
-      primaryClass={cs.CE}
-}
-
-@misc{xie2023pixiu,
-      title={PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance}, 
-      author={Qianqian Xie and Weiguang Han and Xiao Zhang and Yanzhao Lai and Min Peng and Alejandro Lopez-Lira and Jimin Huang},
-      year={2023},
-      eprint={2306.05443},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-
-@misc{xie2024FinBen,
-      title={The FinBen: An Holistic Financial Benchmark for Large Language Models}, 
-      author={Qianqian Xie and Weiguang Han and Zhengyu Chen and Ruoyu Xiang and Xiao Zhang and Yueru He and Mengxi Xiao and Dong Li and Yongfu Dai and Duanyu Feng and Yijing Xu and Haoqiang Kang and Ziyan Kuang and Chenhan Yuan and Kailai Yang and Zheheng Luo and Tianlin Zhang and Zhiwei Liu and Guojun Xiong and Zhiyang Deng and Yuechen Jiang and Zhiyuan Yao and Haohang Li and Yangyang Yu and Gang Hu and Jiajia Huang and Xiao-Yang Liu and Alejandro Lopez-Lira and Benyou Wang and Yanzhao Lai and Hao Wang and Min Peng and Sophia Ananiadou and Jimin Huang},
-      year={2024},
-      eprint={2402.12659},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
 ```
 
 ---
