@@ -16,6 +16,9 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 🐹 我们很高兴与大家分享我们的论文, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
 
+---
+尽管大语言模型（LLM）的发展显著推动了金融分析，但其应用主要局限于单一语言领域，中英双语能力的潜力尚未得到充分开发。为了弥合这一鸿沟，我们推出了ICE-PIXIU，将ICE-INTENT模型和ICE-FLARE基准无缝结合，用于双语金融分析。ICE-PIXIU 独特地整合了一系列中文任务以及翻译和原始英文数据集，丰富了双语金融建模的广度和深度。ICE-PIXIU可以自由访问各种模型变体、大量跨语言和多模态指令数据，以及带有专家注释的评估基准，其中包括10个NLP任务和20个双语特定任务，共计95k个数据集。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境下的语言灵活性和分析敏锐性。值得注意的是，与传统的LLM和现有的金融LLM相比，ICE-INTENT在双语环境中表现出了显著的提升，凸显了强大的双语数据对金融NLP的准确性和有效性的深远影响。
+---
 
 #### ICE-PIXIU(貔貅）以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
 <p align="center" width="100%">    
@@ -27,10 +30,13 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 <img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="60%" height="60%">
 </p>
 
-## 评估数据:
-所有的评测数据集合见[这里](https://huggingface.co/ICE-PIXIU)找到。
 
-**数据集**
+# ICE-FIND:跨语言指令数据
+
+**评测数据**
+所有的评测数据集合可以在[这里](https://huggingface.co/ICE-PIXIU)找到。
+
+**数据集（ICE-FIND_Test）**
 > Sentiment Analysis(FinSA)
 - [ICE-FLARE (zh-FE)](https://huggingface.co/datasets/ICE-PIXIU/FE)
 - [ICE-FLARE (zh-stockB)](https://huggingface.co/datasets/ICE-PIXIU/stockB)
