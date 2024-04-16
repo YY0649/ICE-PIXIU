@@ -17,7 +17,9 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 🐹 我们很高兴与大家分享我们的论文, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
 
 ---
+
 尽管大语言模型（LLM）的发展显著推动了金融分析，但其应用主要局限于单一语言领域，中英双语能力的潜力尚未得到充分开发。为了弥合这一鸿沟，我们推出了ICE-PIXIU，将ICE-INTENT模型和ICE-FLARE基准无缝结合，用于双语金融分析。ICE-PIXIU 独特地整合了一系列中文任务以及翻译和原始英文数据集，丰富了双语金融建模的广度和深度。ICE-PIXIU可以自由访问各种模型变体、大量跨语言和多模态指令数据，以及带有专家注释的评估基准，其中包括10个NLP任务和20个双语特定任务，共计95k个数据集。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境下的语言灵活性和分析敏锐性。值得注意的是，与传统的LLM和现有的金融LLM相比，ICE-INTENT在双语环境中表现出了显著的提升，凸显了强大的双语数据对金融NLP的准确性和有效性的深远影响。
+
 ---
 
 #### ICE-PIXIU(貔貅）以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
@@ -30,13 +32,30 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 <img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="60%" height="60%">
 </p>
 
+---
 
-# ICE-FIND:跨语言指令数据
+            
+# 概述
+
+**ICE-PIXIU** 是我们推出的一个综合框架，包含首个跨语言双语金融大语言模型 ICE-INTENT 和评估基准 ICE-FLARE。ICE-PIXIU 结合了各种中文分类、抽取、推理和预测的金融 NLP 任务，增强了训练和性能，从而弥补了中文金融 NLP 的不足。同时集成了一系列翻译和原始英文数据集，丰富了双语金融建模的广度和深度。它提供了对各种模型变体的不受限制的访问、大量不同的跨语言和多模式指令数据的汇编，以及带有专家注释的评估基准，包括 10 个 NLP 任务和 20 个双语特定任务。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境中的语言灵活性和分析敏锐性。
+
+### 主要特征
+
+- **双语能力**: ICE-INTENT 是 ICE-PIXIU 的一个组成部分，具有出色的中英双语能力，这对全球金融数据处理和分析至关重要。
+- **多样化数据**: ICE-PIXIU 结合了各种中文分类、提取、推理和预测 NLP 任务，加强了训练和性能，从而弥补了中文金融 NLP 的不足。
+- **专家级提示**: ICE-PIXIU 提供了一套多样化、高质量、经专家注释的提示，并采用了类似的微调说明，以增强对金融任务的理解。
+- **多语言**: 纳入翻译和英语数据： 该框架通过纳入翻译任务和英语数据集来扩展其功能，从而加强其双语训练和应用。
+- **跨语言评估**: ICE-PIXIU 引入了 ICE-FLARE，这是一种严格的跨语言评估基准，可确保模型在不同语言环境中表现一致。
+- **开放性**: ICE-PIXIU 采用开放式访问方法，向研究社区提供资源，促进金融 NLP 的协同发展。
+
+
+---
+## ICE-FIND: 中英跨语言指令数据
 
 **评测数据**
 所有的评测数据集合可以在[这里](https://huggingface.co/ICE-PIXIU)找到。
 
-**数据集（ICE-FIND_Test）**
+**数据集（Evaluation Test）**
 > Sentiment Analysis(FinSA)
 - [ICE-FLARE (zh-FE)](https://huggingface.co/datasets/ICE-PIXIU/FE)
 - [ICE-FLARE (zh-stockB)](https://huggingface.co/datasets/ICE-PIXIU/stockB)
@@ -483,21 +502,6 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 </table>
 
 ---
-            
-## 概述
-
-**ICE-PIXIU** 是我们推出的一个综合框架，包含首个跨语言双语金融大语言模型 ICE-INTENT 和评估基准 ICE-FLARE。ICE-PIXIU 结合了各种中文分类、抽取、推理和预测的金融 NLP 任务，增强了训练和性能，从而弥补了中文金融 NLP 的不足。同时集成了一系列翻译和原始英文数据集，丰富了双语金融建模的广度和深度。它提供了对各种模型变体的不受限制的访问、大量不同的跨语言和多模式指令数据的汇编，以及带有专家注释的评估基准，包括 10 个 NLP 任务和 20 个双语特定任务。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境中的语言灵活性和分析敏锐性。
-
-### 主要特征
-
-- **双语能力**: ICE-INTENT 是 ICE-PIXIU 的一个组成部分，具有出色的中英双语能力，这对全球金融数据处理和分析至关重要。
-- **多样化数据**: ICE-PIXIU 结合了各种中文分类、提取、推理和预测 NLP 任务，加强了训练和性能，从而弥补了中文金融 NLP 的不足。
-- **专家级提示**: ICE-PIXIU 提供了一套多样化、高质量、经专家注释的提示，并采用了类似的微调说明，以增强对金融任务的理解。
-- **多语言**: 纳入翻译和英语数据： 该框架通过纳入翻译任务和英语数据集来扩展其功能，从而加强其双语训练和应用。
-- **跨语言评估**: ICE-PIXIU 引入了 ICE-FLARE，这是一种严格的跨语言评估基准，可确保模型在不同语言环境中表现一致。
-- **开放性**: ICE-PIXIU 采用开放式访问方法，向研究社区提供资源，促进金融 NLP 的协同发展。
-
----
 
 ## ICE-INTERN: 中英文跨语言金融大模型
 
@@ -554,6 +558,10 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 10. https://www.biendata.xyz/competition/ccks2022_eventext/
 11. Jia C, Shi Y, Yang Q, et al. Entity enhanced BERT pre-training for Chinese NER[C]//Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2020: 6384-6396.
 12. Xie Q, Han W, Zhang X, et al. PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance[J]. arXiv preprint arXiv:2306.05443, 2023.
+
+---
+
+## ICE-FLARE:中英跨语言评估基准
 
 ---
 
