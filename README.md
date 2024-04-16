@@ -36,8 +36,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (zh-stockB)](https://huggingface.co/datasets/ICE-PIXIU/stockB)
 - [ICE-FLARE (zh-FPB)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fpb)
 - [ICE-FLARE (zh-Fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fiqasa)
-- [ICE-FLARE (en-FPB)](https://huggingface.co/datasets/ChanceFocus/en-fpb)
-- [ICE-FLARE (en-Fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-fiqasa)
+- [ICE-FLARE (en-FPB)](https://huggingface.co/datasets/ICE-PIXIU/FPB)
+- [ICE-FLARE (en-Fiqasa)](https://huggingface.co/datasets/ICE-PIXIU/Fiqasa)
   
 > Semantic Matching(FinSM)
 - [ICE-FLARE (zh-AFQMC)](https://huggingface.co/datasets/ICE-PIXIU/AFQMC)
@@ -58,11 +58,11 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
   
 > Headline Classification(FinHC)
 - [ICE-FLARE (zh-Headlines)](https://huggingface.co/datasets/ChanceFocus/flare-zh-headlines)
-- [ICE-FLARE (en-Headlines)](https://huggingface.co/datasets/ChanceFocus/flare-headlines)
+- [ICE-FLARE (en-Headlines)](https://huggingface.co/datasets/ICE-PIXIU/Headlines)
   
 > Credit Classification(FinCC)
-- [ICE-FLARE (en-German)](https://huggingface.co/datasets/ChanceFocus/flare-german)
-- [ICE-FLARE (en-Australian)](https://huggingface.co/datasets/ChanceFocus/flare-australian)
+- [ICE-FLARE (en-German)](https://huggingface.co/datasets/ICE-PIXIU/german)
+- [ICE-FLARE (en-Australian)](https://huggingface.co/datasets/ICE-PIXIU/Australian)
 > Hawkish-dovish Classification(FinDC)
 - [ICE-FLARE (en-FOMC)](https://huggingface.co/datasets/ChanceFocus/flare-fomc)
   
@@ -74,24 +74,24 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
   
 > Entity Recognition(FinER)
 - [ICE-FLARE (zh-NER)](https://huggingface.co/datasets/ICE-PIXIU/cner)
-- [ICE-FLARE (en-ner)](https://huggingface.co/datasets/ChanceFocus/flare-ner)
+- [ICE-FLARE (en-ner)](https://huggingface.co/datasets/ICE-PIXIU/NER)
 - [ICE-FLARE (en-finer-ord)](https://huggingface.co/datasets/ChanceFocus/flare-finer-ord)
   
 > Question Answering(FinQA)
 - [ICE-FLARE (zh-QA)](https://huggingface.co/datasets/ICE-PIXIU/QA)
 - [ICE-FLARE (zh-EnQA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-finqa)
 - [ICE-FLARE (zh-ConvFinQa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-convfinqa)
-- [ICE-FLARE (en-EnQA)](https://huggingface.co/datasets/ChanceFocus/flare-finqa)
-- [ICE-FLARE (en-ConvFinQa)](https://huggingface.co/datasets/ChanceFocus/flare-convfinqa)
+- [ICE-FLARE (en-EnQA)](https://huggingface.co/datasets/ICE-PIXIU/Finqa)
+- [ICE-FLARE (en-ConvFinQa)](https://huggingface.co/datasets/ICE-PIXIU/convfinqa)
   
 > Stock Prediction(FinSF)
 - [ICE-FLARE (zh-stockA)](https://huggingface.co/datasets/ICE-PIXIU/stockA)
 - [ICE-FLARE (zh-BigData)](https://huggingface.co/datasets/ChanceFocus/flare-zh-bigdata)
 - [ICE-FLARE (zh-ACL)](https://huggingface.co/datasets/ChanceFocus/flare-zh-acl)
 - [ICE-FLARE (zh-CIKM)](https://huggingface.co/datasets/ChanceFocus/flare-zh-cikm)
-- [ICE-FLARE (en-BigData)](https://huggingface.co/datasets/TheFinAI/en-forecasting-bigdata)
-- [ICE-FLARE (en-ACL)](https://huggingface.co/datasets/ChanceFocus/flare-sm-acl)
-- [ICE-FLARE (en-CIKM)](https://huggingface.co/datasets/ChanceFocus/flare-sm-cikm)
+- [ICE-FLARE (en-BigData)](https://huggingface.co/datasets/ICE-PIXIU/Bigdata)
+- [ICE-FLARE (en-ACL)](https://huggingface.co/datasets/ICE-PIXIU/acl)
+- [ICE-FLARE (en-CIKM)](https://huggingface.co/datasets/ICE-PIXIU/cikm)
   
 > Text Summarization(FinTS)
 - [ICE-FLARE (zh-NA)](https://huggingface.co/datasets/ICE-PIXIU/NA)
