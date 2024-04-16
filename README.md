@@ -64,7 +64,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (en-German)](https://huggingface.co/datasets/ICE-PIXIU/german)
 - [ICE-FLARE (en-Australian)](https://huggingface.co/datasets/ICE-PIXIU/Australian)
 > Hawkish-dovish Classification(FinDC)
-- [ICE-FLARE (en-FOMC)](https://huggingface.co/datasets/ChanceFocus/flare-fomc)
+- [ICE-FLARE (en-FOMC)](https://huggingface.co/datasets/ICE-PIXIU/FOMC)
   
 > Event Detection(FinED)
 - [ICE-FLARE (zh-19CCKS)](https://huggingface.co/datasets/ICE-PIXIU/CCKS)
@@ -75,7 +75,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 > Entity Recognition(FinER)
 - [ICE-FLARE (zh-NER)](https://huggingface.co/datasets/ICE-PIXIU/cner)
 - [ICE-FLARE (en-ner)](https://huggingface.co/datasets/ICE-PIXIU/NER)
-- [ICE-FLARE (en-finer-ord)](https://huggingface.co/datasets/ChanceFocus/flare-finer-ord)
+- [ICE-FLARE (en-finer-ord)](https://huggingface.co/datasets/ICE-PIXIU/finer-ord)
   
 > Question Answering(FinQA)
 - [ICE-FLARE (zh-QA)](https://huggingface.co/datasets/ICE-PIXIU/QA)
@@ -95,8 +95,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
   
 > Text Summarization(FinTS)
 - [ICE-FLARE (zh-NA)](https://huggingface.co/datasets/ICE-PIXIU/NA)
-- [ICE-FLARE (en-ECTSUM)](https://huggingface.co/datasets/ChanceFocus/flare-ectsum)
-- [ICE-FLARE (en-EDTSUM)](https://huggingface.co/datasets/ChanceFocus/flare-edtsum)
+- [ICE-FLARE (en-ECTSUM)](https://huggingface.co/datasets/ICE-PIXIU/ectsum)
+- [ICE-FLARE (en-EDTSUM)](https://huggingface.co/datasets/ICE-PIXIU/edtsum)
 
 
 **数据总表**：中英文双语多任务金融教学和评估原始数据的详细信息包括语言能力（Lang）、数据类型（D_T）、NLP 任务（NLP_T）、特定任务（S_T）、数据集名称、指令数据大小、评估数据大小、数据源和许可证信息。
