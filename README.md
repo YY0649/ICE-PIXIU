@@ -33,7 +33,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - **开放性**: ICE-PIXIU 采用开放式访问方法，向研究社区提供资源，促进金融 NLP 的协同发展。
 
 
----
+=======
 ## ICE-FIND: 中英跨语言指令数据
 
 
@@ -497,7 +497,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
      </tr>
 </table>
 
----
+=======
 
 ## ICE-INTERN: 中英文跨语言金融大模型
 
@@ -508,7 +508,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 在微调过程中，我们采用了QLoRA，这是一种高效的参数调整技术，使用统一的2048标记序列长度。微调过程使用了AdamW优化器，初始学习率为5e-5，权重衰减为1e-5，另外还进行了1%的总步数预热。所有模型在八块A100 40GB GPU上批量为24进行了一轮的微调，使用了一致的超参数设置。
 
----
+=======
 
 ## ICE-FLARE: 中英文跨语言金融评估基准
 
@@ -557,9 +557,6 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 11. Jia C, Shi Y, Yang Q, et al. Entity enhanced BERT pre-training for Chinese NER[C]//Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2020: 6384-6396.
 12. Xie Q, Han W, Zhang X, et al. PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance[J]. arXiv preprint arXiv:2306.05443, 2023.
 
----
-
-## ICE-FLARE:中英跨语言评估基准
 
 ---
 
