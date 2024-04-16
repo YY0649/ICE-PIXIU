@@ -24,7 +24,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 #### 描述 ICE-PIXIU 在不同语言能力、数据类型、金融 NLP 任务、特定金融任务和数据集上的分布旭日图
 <p align="center" width="100%">
-<img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="70%" height="70%">
+<img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="60%" height="60%">
 </p>
 
 ## 评估数据:
