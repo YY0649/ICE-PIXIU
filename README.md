@@ -33,8 +33,6 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - **开放性**: ICE-PIXIU 采用开放式访问方法，向研究社区提供资源，促进金融 NLP 的协同发展。
 
 
-=======
-
 ## ICE-FIND: 中英跨语言指令数据
 
 
