@@ -28,7 +28,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 </p>
 
 ## 评估数据:
-所有的评测数据集合见[这里](https://huggingface.co/collections/ChanceFocus/flare-evaluation-datasets-chinese-65292963a8cd8847517204a2)找到。
+所有的评测数据集合见[这里](https://huggingface.co/ICE-PIXIU)找到。
 
 **数据集**
 > Sentiment Analysis(FinSA)
