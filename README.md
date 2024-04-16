@@ -49,8 +49,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ---
 
-**评测数据**
-所有的评测数据集合可以在[这里](https://huggingface.co/ICE-PIXIU)找到。
+**评测数据**            
+我们所有的评测数据集合可以在[这里](https://huggingface.co/ICE-PIXIU)找到。
 
 **数据集（Evaluation Test）**
 > Sentiment Analysis(FinSA)
