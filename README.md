@@ -32,29 +32,29 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 **数据集**
 > Sentiment Analysis(FinSA)
-- [ICE-FLARE (zh-FE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fe)
-- [ICE-FLARE (zh-stockB)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stockb)
+- [ICE-FLARE (zh-FE)](https://huggingface.co/datasets/ICE-PIXIU/FE)
+- [ICE-FLARE (zh-stockB)](https://huggingface.co/datasets/ICE-PIXIU/stockB)
 - [ICE-FLARE (zh-FPB)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fpb)
 - [ICE-FLARE (zh-Fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fiqasa)
 - [ICE-FLARE (en-FPB)](https://huggingface.co/datasets/ChanceFocus/en-fpb)
 - [ICE-FLARE (en-Fiqasa)](https://huggingface.co/datasets/ChanceFocus/flare-fiqasa)
   
 > Semantic Matching(FinSM)
-- [ICE-FLARE (zh-AFQMC)](https://huggingface.co/datasets/ChanceFocus/flare-zh-afqmc)
-- [ICE-FLARE (zh-BQC)](https://huggingface.co/datasets/ChanceFocus/flare-zh-corpus)
+- [ICE-FLARE (zh-AFQMC)](https://huggingface.co/datasets/ICE-PIXIU/AFQMC)
+- [ICE-FLARE (zh-BQC)](https://huggingface.co/datasets/ICE-PIXIU/corpus)
   
 > News Classification(FinNS)
-- [ICE-FLARE (zh-NL)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl)
-- [ICE-FLARE (zh-NL2)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nl2)
+- [ICE-FLARE (zh-NL)](https://huggingface.co/datasets/ICE-PIXIU/NL)
+- [ICE-FLARE (zh-NL2)](https://huggingface.co/datasets/ICE-PIXIU/NL2)
   
 > Negative Judgment(FinNJ)
-- [ICE-FLARE (zh-NSP)](https://huggingface.co/datasets/ChanceFocus/flare-zh-nsp)
+- [ICE-FLARE (zh-NSP)](https://huggingface.co/datasets/ICE-PIXIU/NSP)
   
 > Answer Selection(FinAS)
-- [ICE-FLARE (zh-FinEvalF)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fineval)
+- [ICE-FLARE (zh-FinEvalF)](https://huggingface.co/datasets/ICE-PIXIU/fineval)
   
 > Relationship Extraction(FinRE)
-- [ICE-FLARE (zh-RE)](https://huggingface.co/datasets/ChanceFocus/flare-zh-re)
+- [ICE-FLARE (zh-RE)](https://huggingface.co/datasets/ICE-PIXIU/RE)
   
 > Headline Classification(FinHC)
 - [ICE-FLARE (zh-Headlines)](https://huggingface.co/datasets/ChanceFocus/flare-zh-headlines)
@@ -67,25 +67,25 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (en-FOMC)](https://huggingface.co/datasets/ChanceFocus/flare-fomc)
   
 > Event Detection(FinED)
-- [ICE-FLARE (zh-19CCKS)](https://huggingface.co/datasets/ChanceFocus/flare-zh-19ccks)
-- [ICE-FLARE (zh-20CCKS)](https://huggingface.co/datasets/ChanceFocus/flare-zh-20ccks)
-- [ICE-FLARE (zh-21CCKS)](https://huggingface.co/datasets/ChanceFocus/flare-zh-21ccks)
-- [ICE-FLARE (zh-22CCKS)](https://huggingface.co/datasets/ChanceFocus/flare-zh-22ccks)
+- [ICE-FLARE (zh-19CCKS)](https://huggingface.co/datasets/ICE-PIXIU/CCKS)
+- [ICE-FLARE (zh-20CCKS)](https://huggingface.co/datasets/ICE-PIXIU/CCKS)
+- [ICE-FLARE (zh-21CCKS)](https://huggingface.co/datasets/ICE-PIXIU/CCKS)
+- [ICE-FLARE (zh-22CCKS)](https://huggingface.co/datasets/ICE-PIXIU/CCKS)
   
 > Entity Recognition(FinER)
-- [ICE-FLARE (zh-NER)](https://huggingface.co/datasets/ChanceFocus/flare-zh-ner)
+- [ICE-FLARE (zh-NER)](https://huggingface.co/datasets/ICE-PIXIU/cner)
 - [ICE-FLARE (en-ner)](https://huggingface.co/datasets/ChanceFocus/flare-ner)
 - [ICE-FLARE (en-finer-ord)](https://huggingface.co/datasets/ChanceFocus/flare-finer-ord)
   
 > Question Answering(FinQA)
-- [ICE-FLARE (zh-QA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-qa)
+- [ICE-FLARE (zh-QA)](https://huggingface.co/datasets/ICE-PIXIU/QA)
 - [ICE-FLARE (zh-EnQA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-finqa)
 - [ICE-FLARE (zh-ConvFinQa)](https://huggingface.co/datasets/ChanceFocus/flare-zh-convfinqa)
 - [ICE-FLARE (en-EnQA)](https://huggingface.co/datasets/ChanceFocus/flare-finqa)
 - [ICE-FLARE (en-ConvFinQa)](https://huggingface.co/datasets/ChanceFocus/flare-convfinqa)
   
 > Stock Prediction(FinSF)
-- [ICE-FLARE (zh-stockA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-stocka)
+- [ICE-FLARE (zh-stockA)](https://huggingface.co/datasets/ICE-PIXIU/stockA)
 - [ICE-FLARE (zh-BigData)](https://huggingface.co/datasets/ChanceFocus/flare-zh-bigdata)
 - [ICE-FLARE (zh-ACL)](https://huggingface.co/datasets/ChanceFocus/flare-zh-acl)
 - [ICE-FLARE (zh-CIKM)](https://huggingface.co/datasets/ChanceFocus/flare-zh-cikm)
@@ -94,7 +94,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (en-CIKM)](https://huggingface.co/datasets/ChanceFocus/flare-sm-cikm)
   
 > Text Summarization(FinTS)
-- [ICE-FLARE (zh-NA)](https://huggingface.co/datasets/ChanceFocus/flare-zh-na)
+- [ICE-FLARE (zh-NA)](https://huggingface.co/datasets/ICE-PIXIU/NA)
 - [ICE-FLARE (en-ECTSUM)](https://huggingface.co/datasets/ChanceFocus/flare-ectsum)
 - [ICE-FLARE (en-EDTSUM)](https://huggingface.co/datasets/ChanceFocus/flare-edtsum)
 
