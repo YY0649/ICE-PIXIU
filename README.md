@@ -506,7 +506,7 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 在微调过程中，我们采用了QLoRA，这是一种高效的参数调整技术，使用统一的2048标记序列长度。微调过程使用了AdamW优化器，初始学习率为5e-5，权重衰减为1e-5，另外还进行了1%的总步数预热。所有模型在八块A100 40GB GPU上批量为24进行了一轮的微调，使用了一致的超参数设置。
 
-=======
+
 
 ## ICE-FLARE: 中英文跨语言金融评估基准
 
