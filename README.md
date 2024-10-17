@@ -51,7 +51,9 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 我们所有的评测数据集合可以在[这里](https://huggingface.co/ICE-PIXIU)找到。
 
 **数据集（Evaluation Test）**
+
 > Sentiment Analysis(FinSA)
+> 
 - [ICE-FLARE (zh-FE)](https://huggingface.co/datasets/ICE-PIXIU/FE)
 - [ICE-FLARE (zh-stockB)](https://huggingface.co/datasets/ICE-PIXIU/stockB)
 - [ICE-FLARE (zh-FPB)](https://huggingface.co/datasets/ChanceFocus/flare-zh-fpb)
@@ -117,6 +119,10 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (zh-NA)](https://huggingface.co/datasets/ICE-PIXIU/NA)
 - [ICE-FLARE (en-ECTSUM)](https://huggingface.co/datasets/ICE-PIXIU/ectsum)
 - [ICE-FLARE (en-EDTSUM)](https://huggingface.co/datasets/ICE-PIXIU/edtsum)
+
+> Adding Cross-Lingual Datasets
+- [ICE-FLARE (BCIKM18)](https://huggingface.co/datasets/ICE-PIXIU/BCIKM18)
+- [ICE-FLARE (M&A)](https://hf-mirror.com/datasets/ICE-PIXIU/MA)
 
 
 **数据总表**：中英文双语多任务金融教学和评估原始数据的详细信息包括语言能力（Lang）、数据类型（D_T）、NLP 任务（NLP_T）、特定任务（S_T）、数据集名称、指令数据大小、评估数据大小、数据源和许可证信息。
