@@ -641,6 +641,7 @@ bash scripts/run_interface.sh
 
 
 #### Predefined Task Metrics
+
 | Task                                     | Metric                                 | Illustration                                                 |
 | ---------------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
 | Classification                           | Accuracy                               | This metric represents the ratio of correctly predicted observations to the total observations. The calculation formula is (correct predictions + incorrect predictions) / total observations. |
@@ -661,8 +662,8 @@ bash scripts/run_interface.sh
 #### Sample Input and Output for Specific Tasks
 For specific financial tasks such as Question Answering (FinQA), Text Summarization (FinTS), Relation Extraction (FinRE), Event Detection (FinED), Entity Recognition (FinER), and News Classification (FinNC), various LLM input and response examples are provided.
 
-| Task       | Query                                 |     Baichuan-7B   |     GPT-4      |    ICE-INTERN-full-7B    |
-| ---------- | ------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------- | ------------------------------------------- |
+| Task       | Query                      |     Baichuan-7B   |     GPT-4      |    ICE-INTERN-full-7B    |
+| ---------- | -------------------------- | ------------- ---- | --------  --- | ---------     --------- |
 |FinQA       |浦东建设公告，公司子公司上海市浦东新区建设（集团）有限公司、上海浦兴路桥建设工程有限公司中标多项重大工程项目，中标金额总计为10.94亿元。***请问中标事件对应的主体有哪些?***|浦东建设、浦兴路桥、浦东建设(集团)|中标事件对应的主体有上海市浦东新区建设（集团）有限公司|上海市浦东新区建设（集团）有限公司,上海浦兴路桥建设工程有限公司|
 |FinTS       |市场普遍预期日本央行将维持其超宽松货币政策不变，但知情人士表示，周二将公布的经济展望报告中，可能上调4月起财政年度的通胀预估。能源和原材料成本的上涨已将批发价格推高至40年来的最高水平，企业已开始将上涨的成本转嫁给消费者。近期通胀温和上升，主要是投入成本上升和日元疲软推动的，而不是强劲的国内需求。日本央行行长黑田东彦曾表示，物价上涨应该伴随着工资的强劲增长。***请对上述金融报道进行总结，给出具有中心主旨的摘要，回答要求尽量简短。***|日本央行行长黑田东彦曾表示，物价上涨应该伴随着工资的强劲增长。|日本央行预计将上调4月起的通胀预估，尽管市场普遍预期货币政策将保持超宽松。成本上涨推高批发价格，企业已将涨成本转嫁给消费者，但通胀主要由投入成本上升和日元疲软推动，而非国内需求强劲。|知情人士：日本央行可能上调4月起财政年度的通胀预估。|
 |FinRE       |新希望集团销售额约为上市公司<N>倍有余,由于背靠农业帝国“希望系”, 资本市场一直预期集团能够向新希望股份注入农业资产, 如果集团资产整合启动, 新希望股份的股。***请分析上述涉及实体对(新希望股份,新希望集团)的关系。***|被收购|被注资|自己|
