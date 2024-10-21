@@ -4,7 +4,7 @@
 
 **Languages**
 
--[Chinese](
+-[Chinese](https://github.com/YY0649/ICE-PIXIU/blob/master/README.zh.md)
 
 
 **Disclaimer**
