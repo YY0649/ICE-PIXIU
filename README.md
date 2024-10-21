@@ -638,7 +638,7 @@ python eval.py \
 To run the inference backend, please execute the following command:
 ```bash
 bash scripts/run_interface.sh
-
+```
 
 #### Predefined Task Metrics
 
