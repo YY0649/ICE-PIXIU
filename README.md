@@ -4,7 +4,7 @@
 
 **Languages**
 
--[Chinese](https://github.com/YY0649/ICE-PIXIU/blob/master/README.zh.md)
+[Chinese](https://github.com/YY0649/ICE-PIXIU/blob/master/README.zh.md)
 
 
 **Disclaimer**
@@ -564,7 +564,7 @@ In order to conduct comparative analysis with other general large models (includ
 
 ----
 
-### Benchmark Evaluation Environment Deployment
+**Benchmark Evaluation Environment Deployment**
 
 ##### Local Installation
 
@@ -670,7 +670,6 @@ For specific financial tasks such as Question Answering (FinQA), Text Summarizat
 |FinER       |本公司非执行董事孙月英女士不再担任中国远洋海运集团有限公司总会计师和中远财务有限责任公司董事长。***请给出上述金融报道中存在的个人(’PER’)、组 织(’ORG’)或地点(’LOC’)的特定命 名实体，回答应遵循的格式’实体名称, 实体类型’。***|中国远洋海运集团有限公司，ORG|中远海运发展股份有限公司, ORG|孙月英, PER;中国远洋海运集团有限公司, ORG;中远财务有限责任公司, ORG|
 |FinNC       |WTI原油涨幅回升至0.5\%，现报75.58美元/桶。***请对该金融报道进行分类，具体属于['中国','外国','国际','公司','行业','大盘','经济','政策','政治','期货','债券','房地产','外汇','虚拟货币','新冠','能源']中的哪些类别？***|~输出与内容无关~|国际,能源|国际期货|
 
----
 
 ## Citation
 
