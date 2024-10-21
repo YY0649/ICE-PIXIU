@@ -1,56 +1,56 @@
 
-No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks
+# No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks
 =======
 
+**Languages**
 
-**免责声明**
+-[Chinese](
 
-本资料库及其内容仅用于**学术和教育目的**。所有资料均不构成金融、法律或投资建议。不对内容的准确性、完整性或实用性提供任何明示或暗示的保证。作者和撰稿人不对任何错误、遗漏或因使用本网站信息而产生的任何后果负责。用户在做出任何财务、法律或投资决定之前，应自行判断并咨询专业人士。使用本资料库所含软件和信息的风险完全由用户自行承担。
 
-**使用或访问本资源库中的信息，即表示您同意对作者、撰稿人以及任何附属组织或个人的任何及所有索赔或损害进行赔偿、为其辩护并使其免受损害。**
+**Disclaimer**
 
----
+This repository and its contents are for **academic and educational purposes only**. All materials do not constitute financial, legal, or investment advice. No express or implied warranty is provided for the accuracy, completeness, or usefulness of the content. The authors and contributors are not responsible for any errors, omissions, or consequences arising from the use of the information on this website. Users should exercise their own judgment and consult professional advisors before making any financial, legal, or investment decisions. The use of any software and information contained in this repository is entirely at the user's own risk.
 
-## 新闻
-**📢 更新 (Date: 2024/03/12)**
-
-🐹 我们很高兴与大家分享我们的论文, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
+**By using or accessing information in this repository, you agree to indemnify, defend, and hold harmless the authors, contributors, and any affiliated organizations or individuals from any and all claims or damages.**
 
 ---
 
-            
-# 概述
+## News
+**📢 Update (Date: 2024/03/12)**
 
-**ICE-PIXIU** 是我们推出的一个综合框架，包含首个跨语言双语金融指令数据集ICE-FIND、大语言模型 ICE-INTENT 和评估基准 ICE-FLARE。ICE-PIXIU 结合了各种中文分类、抽取、推理和预测的金融 NLP 任务，增强了训练和性能，从而弥补了中文金融 NLP 的不足。同时集成了一系列翻译和原始英文数据集，丰富了双语金融建模的广度和深度。它提供了对各种模型变体的不受限制的访问、大量不同的跨语言和多模式指令数据的汇编，以及带有专家注释的评估基准，包括 10 个 NLP 任务和 20 个双语特定任务。我们的全面评估强调了结合这些双语数据集的优势，尤其是在翻译任务和利用原始英语数据方面，从而提高了金融语境中的语言灵活性和分析敏锐性。
+🐹 We are excited to share our paper, "No Language is an Island: Unifying Chinese and English in Financial Large Language Models, Instruction Data, and Benchmarks".
 
-### 主要特征
+---
 
-- **双语能力**: ICE-INTENT 是 ICE-PIXIU 的一个组成部分，具有出色的中英双语能力，这对全球金融数据处理和分析至关重要。
-- **多样化数据**: ICE-PIXIU 结合了各种中文分类、提取、推理和预测 NLP 任务，加强了训练和性能，从而弥补了中文金融 NLP 的不足。
-- **专家级提示**: ICE-PIXIU 提供了一套多样化、高质量、经专家注释的提示，并采用了类似的微调说明，以增强对金融任务的理解。
-- **多语言**:  ICE-PIXIU 通过纳入翻译任务和英语数据集来扩展其功能，从而加强其双语训练和应用。
-- **跨语言评估**: ICE-PIXIU 引入了 ICE-FLARE，这是一种严格的跨语言评估基准，可确保模型在不同语言环境中表现一致。
-- **开放性**: ICE-PIXIU 采用开放式访问方法，向研究社区提供资源，促进金融 NLP 的协同发展。
+# Overview
 
+**ICE-PIXIU** is our comprehensive framework, featuring the first cross-lingual bilingual financial instruction dataset ICE-FIND, large language model ICE-INTENT, and evaluation benchmark ICE-FLARE. ICE-PIXIU combines various Chinese classification, extraction, reasoning, and prediction financial NLP tasks, enhancing training and performance to address the shortcomings in Chinese financial NLP. It simultaneously integrates a series of translated and original English datasets, enriching the breadth and depth of bilingual financial modeling. It offers unrestricted access to various model variants, a compilation of diverse cross-lingual and multi-modal instruction data, and an evaluation benchmark with expert annotations, encompassing 10 NLP tasks and 20 bilingual specific tasks. Our comprehensive evaluation emphasizes the advantages of combining these bilingual datasets, particularly in translation tasks and leveraging original English data, thereby enhancing language flexibility and analytical acumen in financial contexts.
 
-## ICE-FIND: 中英跨语言指令数据
+### Key Features
 
+- **Bilingual Capability**: ICE-INTENT, a component of ICE-PIXIU, excels in Chinese-English bilingual abilities, crucial for global financial data processing and analysis.
+- **Diverse Data**: ICE-PIXIU combines various Chinese classification, extraction, reasoning, and prediction NLP tasks, strengthening training and performance to address shortcomings in Chinese financial NLP.
+- **Expert Prompts**: ICE-PIXIU offers a set of diverse, high-quality, expert-annotated prompts and adopts similar fine-tuning instructions to enhance understanding of financial tasks.
+- **Multilingual**: ICE-PIXIU extends its capabilities by incorporating translation tasks and English datasets, thereby strengthening its bilingual training and application.
+- **Cross-lingual Evaluation**: ICE-PIXIU introduces ICE-FLARE, a rigorous cross-lingual evaluation benchmark ensuring consistent model performance across different language contexts.
+- **Openness**: ICE-PIXIU adopts an open-access approach, offering resources to the research community to foster collaborative development in financial NLP.
 
-#### ICE-PIXIU(貔貅）以其独特的数据类型、金融任务以及中英文双语领域的数据源，为不同用户群提供各种金融场景下的服务。
+## ICE-FIND: Chinese-English Cross-lingual Instruction Data
+
+#### ICE-PIXIU provides services in various financial scenarios for different user groups with its unique data types, financial tasks, and data sources in Chinese and English bilingual domains.
 <p align="center" width="100%">    
 <img src="https://i.postimg.cc/hvM78JyB/figure-1.png" width="90%" height="90%">
 </p>
 
-#### 描述 ICE-PIXIU 在不同语言能力、数据类型、金融 NLP 任务、特定金融任务和数据集上的分布旭日图
+#### Sunburst chart describing the distribution of ICE-PIXIU across different language capabilities, data types, financial NLP tasks, specific financial tasks, and datasets
 <p align="center" width="100%">
 <img src="https://i.postimg.cc/3RYMCvHc/20240311171548.png" width="60%" height="60%">
 </p>
 
+**Evaluation Data**            
+All our evaluation datasets can be found [here](https://huggingface.co/ICE-PIXIU).
 
-**评测数据**            
-我们所有的评测数据集合可以在[这里](https://huggingface.co/ICE-PIXIU)找到。
-
-**数据集（Evaluation Test）**
+**Datasets (Evaluation Test)**
 
 > Sentiment Analysis(FinSA)
 > 
@@ -124,8 +124,8 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 - [ICE-FLARE (BCIKM18)](https://huggingface.co/datasets/ICE-PIXIU/Bcikm)
 - [ICE-FLARE (M&A)](https://huggingface.co/datasets/ICE-PIXIU/MA)
 
+**Data Summary Table**: Detailed information on Chinese-English bilingual multi-task financial teaching and evaluation raw data, including language capability (Lang), data type (D_T), NLP task (NLP_T), specific task (S_T), dataset name, instruction data size, evaluation data size, data source, and license information.
 
-**数据总表**：中英文双语多任务金融教学和评估原始数据的详细信息包括语言能力（Lang）、数据类型（D_T）、NLP 任务（NLP_T）、特定任务（S_T）、数据集名称、指令数据大小、评估数据大小、数据源和许可证信息。
 <table border= "1" width= "600" align="center">
     <tr bgcolor="#C0C0C0">
         <td align="center">Lang</td>  
@@ -503,50 +503,50 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 </table>
 
 
-## ICE-INTERN: 中英文跨语言金融大模型
+## ICE-INTERN: Bilingual Financial Large Model
 
-- [ICE-INTERN-7B (包含所有DLC的指令数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dlc-7B)
-- [ICE-INTERN-7B (包含所有DCL+DLE的指令数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dle-7B)
-- [ICE-INTERN-7B (包含所有DCL+DLE+DTT的数据微调模型)](https://huggingface.co/jasion/ICE-INTERN-dtt-7B)
-- [ICE-INTERN-7B (包含所有指令数据的微调模型)](https://huggingface.co/jasion/ICE-INTERN-Full-7B)
+- [ICE-INTERN-7B (Instruction-tuned model with all DLC data)](https://huggingface.co/jasion/ICE-INTERN-dlc-7B)
+- [ICE-INTERN-7B (Instruction-tuned model with all DCL+DLE data)](https://huggingface.co/jasion/ICE-INTERN-dle-7B)
+- [ICE-INTERN-7B (Instruction-tuned model with all DCL+DLE+DTT data)](https://huggingface.co/jasion/ICE-INTERN-dtt-7B)
+- [ICE-INTERN-7B (Instruction-tuned model with all instruction data)](https://huggingface.co/jasion/ICE-INTERN-Full-7B)
 
-在微调过程中，我们采用了QLoRA，这是一种高效的参数调整技术，使用统一的2048标记序列长度。微调过程使用了AdamW优化器，初始学习率为5e-5，权重衰减为1e-5，另外还进行了1%的总步数预热。所有模型在八块A100 40GB GPU上批量为24进行了一轮的微调，使用了一致的超参数设置。
+During the fine-tuning process, we employed QLoRA, an efficient parameter tuning technique, using a uniform sequence length of 2048 tokens. The fine-tuning process utilized the AdamW optimizer with an initial learning rate of 5e-5 and a weight decay of 1e-5, along with a 1% total step warm-up. All models underwent one round of fine-tuning on eight A100 40GB GPUs with a batch size of 24, using consistent hyperparameter settings.
 
 
 
-## ICE-FLARE: 中英文跨语言金融评估基准
+## ICE-FLARE: Cross-Language Financial Evaluation Benchmark
 
-为了与其他通用大模型（包括 Baichuan、ChatGPT、Qwen 等）和金融大模型进行对比分析，我们选择了一系列任务和指标，涵盖了金融自然语言处理和金融预测的各个方面。
+In order to conduct comparative analysis with other general large models (including Baichuan, ChatGPT, Qwen, etc.) and financial large models, we have selected a series of tasks and metrics that cover various aspects of financial natural language processing and financial forecasting.
 
-### 任务
+### Tasks
 
 | Data                  | Task                             | Raw    | Data Types                | Modalities        | License         | Paper |
 | --------------------- | -------------------------------- | ------ | ------------------------- | ----------------- | --------------- | ----- |
-| AFQMC                 | 语义匹配                         | 38,650  | 提问数据, 对话            | 文本              | Apache-2.0      | [1]   |
-| corpus                | 语义匹配                         | 120,000 | 提问数据, 对话            | 文本              | Public          | [2]   |
-| stockA                | 股票分类                         | 14,769  | 新闻, 历史价格            | 文本, 时间序列     | Public          | [3]   |
-| Fineval               | 多项选择                         | 1,115   | 金融考试                  | 文本              | Apache-2.0      | [4]   |
-| NL                    | 新闻分类                         | 7,955   | 新闻报道                  | 文本              | Public          | [5]   |
-| NL2                   | 新闻分类                         | 7,955   | 新闻报道                  | 文本              | Public          | [5]   |
-| NSP                   | 负面新闻判断                     | 4,499   | 新闻、社交媒体文本         | 文本              | Public          | [5]   |
-| RE                    | 关系识别                         | 14,973  | 新闻、实体对              | 文本              | Public          | [5]   |
-| FE                    | 情感分析                         | 18,177  | 金融社交媒体文本           | 文本              | Public         | [5]   |
-| stockB                | 情感分析                         | 9,812   | 金融社交媒体文本           | 文本              | Apache-2.0     | [6]   |
-| QA                    | 金融问答                         | 22,375  | 财经新闻公告              | 文本, 表格         | Public         | [5]   |
-| NA                    | 文本摘要                         | 32,400  | 新闻文章、公告            | 文本               | Public         | [5]   |
-| 19CCKS                | 事件主体提取                     | 156,834 | 新闻报道                  | 文本               | CC BY-SA 4.0   | [7]   |
-| 20CCKS                | 事件主体提取                     | 372,810 | 新闻报道                  | 文本               | CC BY-SA 4.0   | [8]   |
-| 21CCKS                | 事件因果关系抽取                 | 8,000   | 新闻报道                   | 文本              | CC BY-SA 4.0   | [9]   |
-| 22CCKS                | 事件主体提取                     | 109,555 | 新闻报道                  | 文本              | CC BY-SA 4.0   | [10]   |
-| CNER                  | 命名实体识别                     | 1,685   | 新闻报道                  | 文本              | Public         | [11]   |
-| CFPB                  | 情感分析                         | 4,845   | 新闻                      | 文本              | MIT license    | [12]   |
-| CFIQASA               | 情感分析                         | 1,173   | 新闻头条、推文            | 文本              | MIT license    | [12]   |
-| CHeadlines            | 新闻标题分类                     | 11,412  | 新闻头条                  | 文本              | MIT license    | [12]   |
-| CBigData              | 股票走势预测                     | 7,164   | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12] |
-| CACL                  | 股票走势预测                     | 27,053  | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12] |
-| CCIKM                 | 股票走势预测                     | 4,967   | 推文、历史价格             | 文本, 时间序列     | MIT license    | [12] |
-| CFinQA                | 金融问答                         | 14,900  | 收益报告                  | 文本, 表格         | MIT license    | [12] |
-| CConvFinQA            | 多轮问答                         | 48,364  | 收益报告                  | 文本, 表格         | MIT license    | [12] |
+| AFQMC                 | Semantic Matching                | 38,650 | Question Data, Dialogue   | Text              | Apache-2.0      | [1]   |
+| corpus                | Semantic Matching                | 120,000| Question Data, Dialogue   | Text              | Public          | [2]   |
+| stockA                | Stock Classification             | 14,769 | News, Historical Prices   | Text, Time Series  | Public          | [3]   |
+| Fineval               | Multiple Choice                  | 1,115  | Financial Exams           | Text              | Apache-2.0      | [4]   |
+| NL                    | News Classification              | 7,955  | News Reports              | Text              | Public          | [5]   |
+| NL2                   | News Classification              | 7,955  | News Reports              | Text              | Public          | [5]   |
+| NSP                   | Negative News Judgement          | 4,499  | News, Social Media Text   | Text              | Public          | [5]   |
+| RE                    | Relation Extraction              | 14,973 | News, Entity Pair         | Text              | Public          | [5]   |
+| FE                    | Sentiment Analysis               | 18,177 | Financial Social Media Text| Text              | Public          | [5]   |
+| stockB                | Sentiment Analysis               | 9,812  | Financial Social Media Text| Text              | Apache-2.0      | [6]   |
+| QA                    | Financial Q&A                    | 22,375 | Financial News Announcements| Text, Tables      | Public          | [5]   |
+| NA                    | Text Summarization              | 32,400 | News Articles, Announcements| Text              | Public          | [5]   |
+| 19CCKS                | Event Subject Extraction         | 156,834| News Reports              | Text              | CC BY-SA 4.0    | [7]   |
+| 20CCKS                | Event Subject Extraction         | 372,810| News Reports              | Text              | CC BY-SA 4.0    | [8]   |
+| 21CCKS                | Event Causal Relationship Extraction| 8,000| News Reports              | Text              | CC BY-SA 4.0    | [9]   |
+| 22CCKS                | Event Subject Extraction         | 109,555| News Reports              | Text              | CC BY-SA 4.0    | [10]  |
+| CNER                  | Named Entity Recognition         | 1,685  | News Reports              | Text              | Public          | [11]  |
+| CFPB                  | Sentiment Analysis               | 4,845  | News                      | Text              | MIT license     | [12]  |
+| CFIQASA               | Sentiment Analysis               | 1,173  | News Headlines, Tweets     | Text              | MIT license     | [12]  |
+| CHeadlines            | News Headline Classification     | 11,412 | News Headlines            | Text              | MIT license     | [12]  |
+| CBigData              | Stock Trend Prediction           | 7,164  | Tweets, Historical Prices | Text, Time Series  | MIT license     | [12]  |
+| CACL                  | Stock Trend Prediction           | 27,053 | Tweets, Historical Prices | Text, Time Series  | MIT license     | [12]  |
+| CCIKM                 | Stock Trend Prediction           | 4,967  | Tweets, Historical Prices | Text, Time Series  | MIT license     | [12]  |
+| CFinQA                | Financial Q&A                    | 14,900 | Earnings Reports          | Text, Tables      | MIT license     | [12]  |
+| CConvFinQA            | Multi-Turn Q&A                   | 48,364 | Earnings Reports          | Text, Tables      | MIT license     | [12]  |
 
 1. Xu L, Hu H, Zhang X, et al. CLUE: A Chinese language understanding evaluation benchmark[J]. arXiv preprint arXiv:2004.05986, 2020.
 2. Jing Chen, Qingcai Chen, Xin Liu, Haijun Yang, Daohe Lu, and Buzhou Tang. 2018. The BQ Corpus: A Large-scale Domain-specific Chinese Corpus For Sentence Semantic Equivalence Identification. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 4946–4951, Brussels, Belgium. Association for Computational Linguistics.
@@ -564,9 +564,10 @@ No Language is an Island: Unifying Chinese and English in Financial Large Langua
 
 ----
 
-### 基准评估环境部署
+### Benchmark Evaluation Environment Deployment
 
-##### 本地安装
+##### Local Installation
+
 ```bash
 git clone https://github.com/chancefocus/PIXIU.git --recursive
 cd PIXIU
@@ -574,11 +575,12 @@ pip install -r requirements.txt
 cd PIXIU/src/financial-evaluation
 pip install -e .[multilingual]
 ```
-##### Docker 镜像
+##### Docker Image
 ```bash
 sudo bash scripts/docker_run.sh
 ```
-以上命令会启动一个 docker 容器，你可以根据自己的环境修改 `docker_run.sh`。我们通过运行 `sudo docker pull tothemoon/pixiu:latest` 来提供预编译镜像。
+
+The above command will start a Docker container. You can modify `docker_run.sh` according to your own environment. We provide the pre-compiled image by running `sudo docker pull tothemoon/pixiu:latest`.
 
 ```bash
 docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 \
@@ -596,20 +598,20 @@ docker run --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 \
     $docker_user/pixiu:$tag \
     [--sshd_port 2201 --cmd "echo 'Hello, world!' && /bin/bash"]
 ```
-参数说明:
-- `[]` 表示可忽略的参数
-- `HF_HOME`: huggingface 缓存目录
-- `sshd_port`: 容器的 sshd 端口，可以运行 `ssh -i private_key -p $sshd_port root@$ip` 来连接容器，默认为 22001
-- `--rm`: 退出容器时移除容器（即 `CTRL + D`）
+Parameter Description:
+- `[]` indicates optional parameters
+- `HF_HOME`: Hugging Face cache directory
+- `sshd_port`: The SSHD port of the container. You can run `ssh -i private_key -p $sshd_port root@$ip` to connect to the container. The default is 22001.
+- `--rm`: Remove the container upon exit (i.e., `CTRL + D`).
 
-#### 自动化任务评估
-在评估前, 请下载 [punto de control BART](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download) 到 `src/metrics/BARTScore/bart_score.pth`.
+#### Automated Task Evaluation
+Before evaluation, please download the [BART checkpoint](https://drive.google.com/u/0/uc?id=1_7JfF7KOInb7ZrxKHIigTMR4ChVET01m&export=download) to `src/metrics/BARTScore/bart_score.pth`.
 
-如需进行自动评估，请按照以下说明操作：
+To perform automatic evaluation, please follow the instructions below:
 
-1. Transformador Huggingface
+1. Hugging Face Transformer
 
-要评估 HuggingFace Hub 上托管的模型（例如，ICE-INTERN-Full-7B），请使用此命令：
+To evaluate models hosted on the Hugging Face Hub (e.g., ICE-INTERN-Full-7B), please use this command:
 
 ```bash
 python eval.py \
@@ -618,11 +620,11 @@ python eval.py \
     --tasks "flare_ner,flare_sm_acl,flare_fpb"
 ```
 
-更多详情，请参阅 [lm_eval](https://github.com/EleutherAI/lm-evaluation-harness) 文档。
+For more details, please refer to the [lm_eval](https://github.com/EleutherAI/lm-evaluation-harness) documentation.
 
-2. 商用接口
+2. Commercial API
 
-请注意，对于 NER 等任务，自动评估是基于特定模式进行的。这可能无法提取零镜头设置中的相关信息，导致性能相对低于之前的人工标注结果。
+Please note that for tasks such as NER, automatic evaluation is based on specific patterns. This may not extract relevant information in zero-shot settings, resulting in performance that is relatively lower than previous human-annotated results.
 
 ```bash
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
@@ -631,34 +633,34 @@ python eval.py \
     --tasks flare_zh_fe,flare_cner,flare_sm_acl
 ```
 
-3.自托管评估
+3. Self-Hosted Evaluation
 
-要运行推理后端，请执行以下操作：
+To run the inference backend, please execute the following command:
 ```bash
 bash scripts/run_interface.sh
-```
-注意，请根据您的环境要求调整run_interface.sh。
 
-#### 预定义任务指标
+
+#### Predefined Task Metrics
 | Task                                     | Metric                                 | Illustration                                                 |
 | ---------------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
-| 分类                                     | Accuracy                               | 该指标表示正确预测的观测数据与总观测数据的比率。计算公式为（正确预测结果 + 错误预测结果）/总观测数据 |
-| 分类                                     | F1 Score                               | F1 分数代表精确度和召回率的调和平均值，从而在这两个因素之间达成平衡。事实证明，在一个因素比另一个因素更重要的情况下，它特别有用。分数范围从 0 到 1，1 表示精确度和召回率均为满分，0 表示最差情况。此外，我们还提供了 F1 分数的 "加权 "和 "宏观 "版本。 |
-| 分类                                     | Missing Ratio                          | 此指标计算任务中给定选项中未返回任何选项的响应比例。 |
-| 分类                                     | Matthews Correlation Coefficient (MCC) | MCC 是一种评估二元分类质量的指标，其得分范围从 -1 到 +1 不等。得分 +1 表示完美预测，0 表示预测结果不优于随机概率，-1 表示预测结果完全相反。 |
-| 序列标记                                 | F1 score                               | 在 "顺序标签 "任务中，我们使用了由 "seqeval "库计算的 F1 分数，这是一个强大的实体级评估指标。该指标要求预测实体和地面实况实体之间的实体跨度和类型完全匹配，以获得正确的评价。真阳性（TP）表示预测正确的实体，假阳性（FP）表示预测错误的实体或跨度/类型不匹配的实体，假阴性（FN）表示从地面实况中遗漏的实体。然后利用这些数量计算精确度、召回率和 F1 分数，其中 F1 分数代表精确度和召回率的调和平均值。 |
-| 序列标记                                | Label F1 score                         | 该指标仅根据预测标签的正确性来评估模型性能，而不考虑实体跨度。 |
-| 关系抽取                                | Precision                              | 精度衡量正确预测的关系在所有预测关系中的比例。它的计算方法是真阳性 （TP） 数除以真阳性和假阳性 （FP） 的总和。 |
-| 关系抽取                                | Recall                                 | 召回率衡量的是在所有实际关系中正确预测关系的比例。它的计算方法是真阳性（TP）的数量除以真阳性和假阴性（FN）的总和。 |
-| 关系抽取                                | F1 score                               | F1 分数是精确度和召回率的调和平均值，它能在这两个指标之间取得平衡。F1 分数在 1（精确度和召回率均为满分）时最佳，在 0 时最差。 |
-| 提取和抽象总结                          | Rouge-L                                | 该指标评估系统与参考摘要之间的最长共同子序列（LCS）。LCS 自然考虑到了句子级结构的相似性，并自动识别最长的共现同序 n-gram。 |
-| 提取和抽象总结                          | Rouge-N                                | 它测量的是系统生成的摘要与参考摘要之间 N 个词组（给定文本样本中 N 个项目的连续序列）的重叠度。N "可以是 1、2 或更多，ROUGE-1 和 ROUGE-2 通常分别用于评估单语法重叠和大语法重叠。 |
-| 问答                                    | EmACC                                  | EMACC 对模型生成的答案与参考答案之间的精确匹配进行评估。换句话说，只有当模型生成的答案与参考答案一字不差地完全匹配时，模型生成的答案才被认为是正确的。 |
+| Classification                           | Accuracy                               | This metric represents the ratio of correctly predicted observations to the total observations. The calculation formula is (correct predictions + incorrect predictions) / total observations. |
+| Classification                           | F1 Score                               | The F1 score represents the harmonic mean of precision and recall, achieving a balance between these two factors. It is particularly useful when one factor is more important than the other. The score ranges from 0 to 1, where 1 indicates perfect precision and recall, and 0 indicates the worst case. Additionally, we provide "weighted" and "macro" versions of the F1 score. |
+| Classification                           | Missing Ratio                          | This metric calculates the proportion of responses that did not return any option among the given options in the task. |
+| Classification                           | Matthews Correlation Coefficient (MCC) | MCC is a metric for assessing the quality of binary classification, with scores ranging from -1 to +1. A score of +1 indicates perfect prediction, 0 indicates no better than random chance, and -1 indicates completely opposite predictions. |
+| Sequence Labeling                        | F1 Score                               | In "sequence labeling" tasks, we use the F1 score calculated by the "seqeval" library, which is a robust entity-level evaluation metric. This metric requires a complete match of entity spans and types between predicted entities and ground truth entities for correct evaluation. True positives (TP) represent correctly predicted entities, false positives (FP) represent incorrectly predicted entities or spans/types that do not match, and false negatives (FN) represent entities missed from the ground truth. These quantities are then used to calculate precision, recall, and F1 score, where the F1 score represents the harmonic mean of precision and recall. |
+| Sequence Labeling                        | Label F1 Score                         | This metric evaluates model performance solely based on the correctness of predicted labels, without considering entity spans. |
+| Relation Extraction                      | Precision                              | Precision measures the proportion of correctly predicted relations among all predicted relations. It is calculated as the number of true positives (TP) divided by the total of true positives and false positives (FP). |
+| Relation Extraction                      | Recall                                 | Recall measures the proportion of correctly predicted relations among all actual relations. It is calculated as the number of true positives (TP) divided by the total of true positives and false negatives (FN). |
+| Relation Extraction                      | F1 Score                               | The F1 score is the harmonic mean of precision and recall, achieving a balance between these two metrics. The F1 score is best at 1 (both precision and recall are perfect) and worst at 0. |
+| Extractive and Abstractive Summarization | Rouge-L                                | This metric assesses the longest common subsequence (LCS) between the system and the reference summary. The LCS naturally considers structural similarity at the sentence level and automatically identifies the longest co-occurring n-gram. |
+| Extractive and Abstractive Summarization | Rouge-N                                | It measures the overlap of N-grams (a continuous sequence of N items in the given text sample) between the system-generated summary and the reference summary. "N" can be 1, 2, or more; ROUGE-1 and ROUGE-2 are typically used to evaluate unigram overlap and bigram overlap, respectively. |
+| Question Answering                      | EMACC                                  | EMACC evaluates the exact match between the model-generated answer and the reference answer. In other words, a model-generated answer is considered correct only if it matches the reference answer exactly. |
 
 ---
 
-#### 部分任务输入输出示例
-在问题解答（FinQA）、文本摘要（FinTS）、关系提取（FinRE）、事件检测（FinED）、实体识别（FinER）和新闻分类（FinNC）等特定金融任务中，各种 LLM 的输入和响应示例。
+#### Sample Input and Output for Specific Tasks
+For specific financial tasks such as Question Answering (FinQA), Text Summarization (FinTS), Relation Extraction (FinRE), Event Detection (FinED), Entity Recognition (FinER), and News Classification (FinNC), various LLM input and response examples are provided.
+
 | Task       | Query                                 |     Baichuan-7B   |     GPT-4      |    ICE-INTERN-full-7B    |
 | ---------- | ------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------- | ------------------------------------------- |
 |FinQA       |浦东建设公告，公司子公司上海市浦东新区建设（集团）有限公司、上海浦兴路桥建设工程有限公司中标多项重大工程项目，中标金额总计为10.94亿元。***请问中标事件对应的主体有哪些?***|浦东建设、浦兴路桥、浦东建设(集团)|中标事件对应的主体有上海市浦东新区建设（集团）有限公司|上海市浦东新区建设（集团）有限公司,上海浦兴路桥建设工程有限公司|
@@ -670,9 +672,9 @@ bash scripts/run_interface.sh
 
 ---
 
-## 引用
+## Citation
 
-如果您在项目中使用了ICE-PIXIU，请引用我们的文章。
+If you use ICE-PIXIU in your project, please cite our article.
 
 ```
 
@@ -680,6 +682,6 @@ bash scripts/run_interface.sh
 
 ---
 
-## 许可证
+## License
 
-ICE-PIXIU 采用 [MIT] 许可。有关详细信息，请参阅 [MIT](LICENSE) 文件。
+ICE-PIXIU is licensed under the [MIT] license. For details, please refer to the [MIT](LICENSE) file.
