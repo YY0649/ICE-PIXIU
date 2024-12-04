@@ -684,4 +684,4 @@ If you use ICE-PIXIU in your project, please cite our article.
 
 ## License
 
-ICE-PIXIU is licensed under the [MIT] license. For details, please refer to the [MIT](LICENSE) file.
+ICE-PIXIU is licensed under the [Apache] license. For details, please refer to the [Apache](LICENSE) file.
